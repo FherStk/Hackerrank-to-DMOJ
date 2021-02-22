@@ -1,7 +1,10 @@
 import os
+import re
 import requests
+import shutil
 import getpass
 import configargparse
+from urllib.parse import urlparse
 from progress_bar import CustomProgress
 from metadata import Metadata
 from constants import extensions
@@ -221,6 +224,9 @@ class Crawler:
 			progress.next()
 		progress.finish()
 		print('All Solutions Crawled')
+	
+	def get(self, url):
+		return self.session.get(url, headers=self.headers).json()
 
 
 def main():
@@ -230,15 +236,49 @@ def main():
 		print('Auth was unsuccessful. Exiting the program')
 		exit(1)
 
-	limit = crawler.options.limit or crawler.total_submissions
-	offset = crawler.options.offset or 0
-	print('Start crawling {} solutions starting from {}'.format(limit, offset))
-	all_submissions_url = crawler.get_all_submissions_url(offset, limit)
+	pattern = re.compile(r'img src="(.*?)"')
 
-	resp = crawler.session.get(all_submissions_url, headers=crawler.headers)
-	data = resp.json()
-	models = data['models']
-	crawler.get_submissions(models)
+	challenges_url = "https://www.hackerrank.com/rest/administration/challenges"
+
+	total = crawler.get(challenges_url)['total']
+	limit = 10
+
+	down = {}
+	for i in range(total//limit+1):
+		url = "https://www.hackerrank.com/rest/administration/challenges?limit={}&offset={}".format(limit, i*limit)
+
+		resp = crawler.get(url)
+
+		for model in resp['models']:
+			down[model['slug']] = model['id']
+
+
+	for slug in down:
+		url = "https://www.hackerrank.com/rest/administration/challenges/{}".format(down[slug])
+		testurl = "https://www.hackerrank.com/rest/contests/dam-m3/challenges/{}/download_testcases".format(slug)
+
+		resp = crawler.get(url)
+
+		slugdir = "chs/{}/".format(slug)
+		os.makedirs(slugdir, exist_ok=True)
+
+		for src in re.findall(pattern, data['model']['body_html']):
+			response = requests.get(src, stream=True)
+			imagefile = slugdir + os.path.basename(urlparse(src).path)
+			with open(imagefile, 'wb') as out_file:
+				shutil.copyfileobj(response.raw, out_file)
+			del response
+			data['model']['body_html'] = data['model']['body_html'].replace(src, os.path.basename(urlparse(src).path))
+
+		with open(slugdir + "body.html", 'w') as textfile:
+			textfile.write(data['model']['body_html'])
+
+		response = requests.get(testurl, stream=True)
+		zipfile = slugdir + "{}-testcases.zip".format(slug)
+		with open(zipfile, 'wb') as out_file:
+			shutil.copyfileobj(response.raw, out_file)
+		del response
+
 
 if __name__ == "__main__":
 	main()
