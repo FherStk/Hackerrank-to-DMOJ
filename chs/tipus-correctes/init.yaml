@@ -1,4 +1,4 @@
-archive: chs/tipus-correctes/tipus-correctes-testcases.zip
+archive: tipus-correctes-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

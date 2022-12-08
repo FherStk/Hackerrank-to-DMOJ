@@ -1,4 +1,4 @@
-archive: chs/el-club-de-la-lucha/el-club-de-la-lucha-testcases.zip
+archive: el-club-de-la-lucha-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

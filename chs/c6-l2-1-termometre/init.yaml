@@ -1,4 +1,4 @@
-archive: chs/c6-l2-1-termometre/c6-l2-1-termometre-testcases.zip
+archive: c6-l2-1-termometre-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

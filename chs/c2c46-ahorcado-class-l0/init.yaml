@@ -1,4 +1,4 @@
-archive: chs/c2c46-ahorcado-class-l0/c2c46-ahorcado-class-l0-testcases.zip
+archive: c2c46-ahorcado-class-l0-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

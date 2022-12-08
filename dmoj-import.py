@@ -5,56 +5,22 @@
 import os
 
 def main():
-	html2md()
-	yamlFiles()
+	copyTest()	
 
-def html2md():
-	directory = "chs"
+def copyTest():
+	testsDir = "chs"
+	promblemsDir = "/etc/dmoj/problems"
 
-	for folder in os.listdir(directory):
-		problem = os.path.join(directory, folder)
+	for problem in os.listdir(testsDir):
+		problemSource = os.path.join(testsDir, problem)
+		problemDest = os.path.join(promblemsDir, problem)
 
-		for file in os.listdir(problem):
-			if file.endswith(".html"):
-				html = os.path.join(problem, file)
-				md = os.path.join(problem, "statement.md")
-				os.system(f"pandoc {html} -t gfm-raw_html -o {md}")
+		#creating the dmoj problem folder
+		os.system(f"mkdir -p {problemDest}")
 
-def yamlFiles():
-	directory = "chs"
-
-	for folder in os.listdir(directory):
-		problem = os.path.join(directory, folder)		
-
-		for file in os.listdir(problem):
-			if file.endswith(".zip"):
-				#unzip test cases
-				zip = os.path.join(problem, file)
-				os.system(f"unzip -u {zip} -d {problem}")
-
-				#create the file
-				output = os.path.join(problem, "init.yaml")
-				os.system(f"touch {output}")
-				os.system(f"echo 'archive: {zip}' > {output}")
-				os.system(f"echo 'test_cases:' >> {output}")
-
-				#counting the cases
-				count = 0
-				for test in os.listdir(os.path.join(problem, "input")):
-					count+=1
-
-				#setup the cases
-				for i in range(0, count-1):
-					appendTestCase(output, i, 0)
-
-				#the last one always scores 1
-				appendTestCase(output, count-1, 1)				
-
-def appendTestCase(output, i, points):
-	num = str(i).zfill(2)
-	os.system(f"echo '- in: input/input{num}.txt' >> {output}")
-	os.system(f"echo '  out: output/output{num}.txt' >> {output}")					
-	os.system(f"echo '  points: {points}' >> {output}")
+		for file in os.listdir(problemSource):
+			if file.endswith(".zip") or file.endswith(".yaml"):
+				os.system(f"cp {os.path.join(problemSource, file)} {os.path.join(problemDest, file)}")			
 
 if __name__ == "__main__":
 	main()

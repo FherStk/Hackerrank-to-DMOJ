@@ -1,4 +1,4 @@
-archive: chs/c3-l0-3-repeat-x/c3-l0-3-repeat-x-testcases.zip
+archive: c3-l0-3-repeat-x-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

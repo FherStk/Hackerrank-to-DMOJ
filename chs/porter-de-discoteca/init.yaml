@@ -1,4 +1,4 @@
-archive: chs/porter-de-discoteca/porter-de-discoteca-testcases.zip
+archive: porter-de-discoteca-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

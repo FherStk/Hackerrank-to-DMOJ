@@ -1,4 +1,4 @@
-archive: chs/c3-l3-5-maquina-de-vending/c3-l3-5-maquina-de-vending-testcases.zip
+archive: c3-l3-5-maquina-de-vending-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

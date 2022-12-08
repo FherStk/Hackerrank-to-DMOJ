@@ -1,4 +1,4 @@
-archive: chs/reaccio-en-cadena/reaccio-en-cadena-testcases.zip
+archive: reaccio-en-cadena-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

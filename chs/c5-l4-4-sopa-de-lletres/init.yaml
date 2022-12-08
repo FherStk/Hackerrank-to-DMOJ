@@ -1,4 +1,4 @@
-archive: chs/c5-l4-4-sopa-de-lletres/c5-l4-4-sopa-de-lletres-testcases.zip
+archive: c5-l4-4-sopa-de-lletres-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

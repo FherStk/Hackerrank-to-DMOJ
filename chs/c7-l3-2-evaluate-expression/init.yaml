@@ -1,4 +1,4 @@
-archive: chs/c7-l3-2-evaluate-expression/c7-l3-2-evaluate-expression-testcases.zip
+archive: c7-l3-2-evaluate-expression-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

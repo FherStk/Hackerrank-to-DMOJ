@@ -1,4 +1,4 @@
-archive: chs/c4-l4-4-ddos/c4-l4-4-ddos-testcases.zip
+archive: c4-l4-4-ddos-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

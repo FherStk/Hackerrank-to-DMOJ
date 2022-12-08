@@ -1,4 +1,4 @@
-archive: chs/arxius-de-codi-font/arxius-de-codi-font-testcases.zip
+archive: arxius-de-codi-font-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

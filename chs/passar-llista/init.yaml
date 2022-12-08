@@ -1,4 +1,4 @@
-archive: chs/passar-llista/passar-llista-testcases.zip
+archive: passar-llista-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

@@ -1,4 +1,4 @@
-archive: chs/abdf3-sprite-flip/abdf3-sprite-flip-testcases.zip
+archive: abdf3-sprite-flip-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

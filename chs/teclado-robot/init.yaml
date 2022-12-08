@@ -1,4 +1,4 @@
-archive: chs/teclado-robot/teclado-robot-testcases.zip
+archive: teclado-robot-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

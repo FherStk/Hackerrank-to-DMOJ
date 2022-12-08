@@ -1,4 +1,4 @@
-archive: chs/c4-l2-1-case-styles/c4-l2-1-case-styles-testcases.zip
+archive: c4-l2-1-case-styles-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

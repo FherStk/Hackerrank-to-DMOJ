@@ -1,4 +1,4 @@
-archive: chs/ceros-debajo-de-la-diagonal/ceros-debajo-de-la-diagonal-testcases.zip
+archive: ceros-debajo-de-la-diagonal-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

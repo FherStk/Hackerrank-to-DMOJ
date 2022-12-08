@@ -1,4 +1,4 @@
-archive: chs/ebeac-fighters-class-l0/ebeac-fighters-class-l0-testcases.zip
+archive: ebeac-fighters-class-l0-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

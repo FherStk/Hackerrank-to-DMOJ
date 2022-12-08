@@ -1,4 +1,4 @@
-archive: chs/desglose-de-cantidades-en-monedas/desglose-de-cantidades-en-monedas-testcases.zip
+archive: desglose-de-cantidades-en-monedas-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

@@ -1,4 +1,4 @@
-archive: chs/del-1-al-5/del-1-al-5-testcases.zip
+archive: del-1-al-5-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

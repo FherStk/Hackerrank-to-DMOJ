@@ -1,4 +1,4 @@
-archive: chs/tres-iguales-seguidos/tres-iguales-seguidos-testcases.zip
+archive: tres-iguales-seguidos-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

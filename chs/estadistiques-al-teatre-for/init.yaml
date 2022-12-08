@@ -1,4 +1,4 @@
-archive: chs/estadistiques-al-teatre-for/estadistiques-al-teatre-for-testcases.zip
+archive: estadistiques-al-teatre-for-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

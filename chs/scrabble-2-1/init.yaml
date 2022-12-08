@@ -1,4 +1,4 @@
-archive: chs/scrabble-2-1/scrabble-2-1-testcases.zip
+archive: scrabble-2-1-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

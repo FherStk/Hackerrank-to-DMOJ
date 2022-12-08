@@ -1,4 +1,4 @@
-archive: chs/c1-l1-5-nota-mitjana/c1-l1-5-nota-mitjana-testcases.zip
+archive: c1-l1-5-nota-mitjana-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

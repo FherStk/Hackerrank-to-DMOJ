@@ -1,4 +1,4 @@
-archive: chs/picos-maximos-y-minimos/picos-maximos-y-minimos-testcases.zip
+archive: picos-maximos-y-minimos-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

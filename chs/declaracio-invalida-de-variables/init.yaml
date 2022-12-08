@@ -1,4 +1,4 @@
-archive: chs/declaracio-invalida-de-variables/declaracio-invalida-de-variables-testcases.zip
+archive: declaracio-invalida-de-variables-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

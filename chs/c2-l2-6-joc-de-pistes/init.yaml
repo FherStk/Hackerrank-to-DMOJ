@@ -1,4 +1,4 @@
-archive: chs/c2-l2-6-joc-de-pistes/c2-l2-6-joc-de-pistes-testcases.zip
+archive: c2-l2-6-joc-de-pistes-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

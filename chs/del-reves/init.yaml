@@ -1,4 +1,4 @@
-archive: chs/del-reves/del-reves-testcases.zip
+archive: del-reves-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

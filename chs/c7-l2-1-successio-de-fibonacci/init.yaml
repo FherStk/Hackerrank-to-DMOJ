@@ -1,4 +1,4 @@
-archive: chs/c7-l2-1-successio-de-fibonacci/c7-l2-1-successio-de-fibonacci-testcases.zip
+archive: c7-l2-1-successio-de-fibonacci-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

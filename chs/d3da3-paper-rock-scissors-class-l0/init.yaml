@@ -1,4 +1,4 @@
-archive: chs/d3da3-paper-rock-scissors-class-l0/d3da3-paper-rock-scissors-class-l0-testcases.zip
+archive: d3da3-paper-rock-scissors-class-l0-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

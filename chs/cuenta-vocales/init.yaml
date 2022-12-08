@@ -1,4 +1,4 @@
-archive: chs/cuenta-vocales/cuenta-vocales-testcases.zip
+archive: cuenta-vocales-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

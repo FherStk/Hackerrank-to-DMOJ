@@ -31,7 +31,7 @@ def yamlFiles():
 				#create the file
 				output = os.path.join(problem, "init.yaml")
 				os.system(f"touch {output}")
-				os.system(f"echo 'archive: {zip}' > {output}")
+				os.system(f"echo 'archive: {file}' > {output}")
 				os.system(f"echo 'test_cases:' >> {output}")
 
 				#counting the cases

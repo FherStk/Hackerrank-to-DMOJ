@@ -1,4 +1,4 @@
-archive: chs/parentesis-1/parentesis-1-testcases.zip
+archive: parentesis-1-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

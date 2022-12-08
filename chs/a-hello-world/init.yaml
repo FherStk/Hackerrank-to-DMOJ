@@ -1,4 +1,4 @@
-archive: chs/a-hello-world/a-hello-world-testcases.zip
+archive: a-hello-world-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

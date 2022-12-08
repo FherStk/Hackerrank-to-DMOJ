@@ -1,4 +1,4 @@
-archive: chs/preu-de-lentrada/preu-de-lentrada-testcases.zip
+archive: preu-de-lentrada-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

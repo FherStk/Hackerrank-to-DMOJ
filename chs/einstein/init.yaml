@@ -1,4 +1,4 @@
-archive: chs/einstein/einstein-testcases.zip
+archive: einstein-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

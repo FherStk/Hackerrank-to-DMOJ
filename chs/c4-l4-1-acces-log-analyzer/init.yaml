@@ -1,4 +1,4 @@
-archive: chs/c4-l4-1-acces-log-analyzer/c4-l4-1-acces-log-analyzer-testcases.zip
+archive: c4-l4-1-acces-log-analyzer-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

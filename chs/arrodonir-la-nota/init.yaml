@@ -1,4 +1,4 @@
-archive: chs/arrodonir-la-nota/arrodonir-la-nota-testcases.zip
+archive: arrodonir-la-nota-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

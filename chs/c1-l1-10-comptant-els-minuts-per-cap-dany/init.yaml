@@ -1,4 +1,4 @@
-archive: chs/c1-l1-10-comptant-els-minuts-per-cap-dany/c1-l1-10-comptant-els-minuts-per-cap-dany-testcases.zip
+archive: c1-l1-10-comptant-els-minuts-per-cap-dany-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

@@ -1,4 +1,4 @@
-archive: chs/operadores-perdidos/operadores-perdidos-testcases.zip
+archive: operadores-perdidos-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

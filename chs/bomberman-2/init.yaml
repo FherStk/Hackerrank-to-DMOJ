@@ -1,4 +1,4 @@
-archive: chs/bomberman-2/bomberman-2-testcases.zip
+archive: bomberman-2-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

@@ -1,4 +1,4 @@
-archive: chs/hora-dapertura-operadors-ternari/hora-dapertura-operadors-ternari-testcases.zip
+archive: hora-dapertura-operadors-ternari-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

@@ -1,4 +1,4 @@
-archive: chs/f2eb6-players/f2eb6-players-testcases.zip
+archive: f2eb6-players-testcases.zip
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt
