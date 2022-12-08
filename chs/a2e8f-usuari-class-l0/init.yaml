@@ -1,0 +1,5 @@
+archive: chs/a2e8f-usuari-class-l0/a2e8f-usuari-class-l0-testcases.zip
+test_cases:
+- in: input/input00.txt
+  out: output/output00.txt
+  points: 1

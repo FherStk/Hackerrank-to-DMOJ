@@ -29,31 +29,31 @@ def yamlFiles():
 			if file.endswith(".zip"):
 				#unzip test cases
 				zip = os.path.join(problem, file)
-				os.system(f"unzip -f {zip} -d {problem}")
+				os.system(f"unzip -u {zip} -d {problem}")
 
 				#create the file
-				output = "init.yaml"
+				output = os.path.join(problem, "init.yaml")
 				os.system(f"touch {output}")
 				os.system(f"echo 'archive: {zip}' > {output}")
 				os.system(f"echo 'test_cases:' >> {output}")
 
-				#setup the cases
-				first = True
+				#counting the cases
+				count = 0
 				for test in os.listdir(os.path.join(problem, "input")):
-					#only the last test scores
-					if not first:
-						os.system(f"echo '  points: 0' >> {output}")
-						first = False
+					count+=1
 
-					#in
-					os.system(f"echo '- in: {test}' >> {output}")
-
-					#out
-					test = test.replace("input", "output")
-					os.system(f"echo '  out: {test}' >> {output}")
+				#setup the cases
+				for i in range(0, count-1):
+					appendTestCase(output, i, 0)
 
 				#the last one always scores 1
-				os.system(f"echo '  points: 1' >> {output}")
+				appendTestCase(output, count-1, 1)				
+
+def appendTestCase(output, i, points):
+	num = str(i).zfill(2)
+	os.system(f"echo '- in: input/input{num}.txt' >> {output}")
+	os.system(f"echo '  out: output/output{num}.txt' >> {output}")					
+	os.system(f"echo '  points: {points}' >> {output}")
 
 if __name__ == "__main__":
 	main()

@@ -1,0 +1,32 @@
+archive: chs/c1-l4-1-piramide-lego/c1-l4-1-piramide-lego-testcases.zip
+test_cases:
+- in: input/input00.txt
+  out: output/output00.txt
+  points: 0
+- in: input/input01.txt
+  out: output/output01.txt
+  points: 0
+- in: input/input02.txt
+  out: output/output02.txt
+  points: 0
+- in: input/input03.txt
+  out: output/output03.txt
+  points: 0
+- in: input/input04.txt
+  out: output/output04.txt
+  points: 0
+- in: input/input05.txt
+  out: output/output05.txt
+  points: 0
+- in: input/input06.txt
+  out: output/output06.txt
+  points: 0
+- in: input/input07.txt
+  out: output/output07.txt
+  points: 0
+- in: input/input08.txt
+  out: output/output08.txt
+  points: 0
+- in: input/input09.txt
+  out: output/output09.txt
+  points: 1
