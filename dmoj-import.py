@@ -19,7 +19,7 @@ def copyTest():
 				os.system(f"cp {os.path.join(problemSource, file)} {os.path.join(problemDest, file)}")
 
 			if file.endswith(".py"):
-				os.system(f". {DMOJ_DIR}/dmojsite/bin/activate && python3 {DMOJ_DIR}/site/manage.py shell < {os.path.join(problemSource, file)}")				
+				ret = os.system(f". {DMOJ_DIR}/dmojsite/bin/activate && python3 {DMOJ_DIR}/site/manage.py shell < {os.path.join(problemSource, file)}")				
 
 if __name__ == "__main__":
 	main()
