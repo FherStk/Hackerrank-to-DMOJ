@@ -1,14 +1,17 @@
 import os
+import json
+
+PROBLEMS_DIR = "chs"
+PROBLEMS_TEMPLATE_ID = 1
 
 def main():
-	html2md()
-	yamlFiles()
+	#html2md()
+	#yamlFiles()
+	pythonFiles()
 
 def html2md():
-	directory = "chs"
-
-	for folder in os.listdir(directory):
-		problem = os.path.join(directory, folder)
+	for folder in os.listdir(PROBLEMS_DIR):
+		problem = os.path.join(PROBLEMS_DIR, folder)
 
 		for file in os.listdir(problem):
 			if file.endswith(".html"):
@@ -17,10 +20,8 @@ def html2md():
 				os.system(f"pandoc {html} -t gfm-raw_html -o {md}")
 
 def yamlFiles():
-	directory = "chs"
-
-	for folder in os.listdir(directory):
-		problem = os.path.join(directory, folder)		
+	for folder in os.listdir(PROBLEMS_DIR):
+		problem = os.path.join(PROBLEMS_DIR, folder)		
 
 		for file in os.listdir(problem):
 			if file.endswith(".zip"):
@@ -45,6 +46,41 @@ def yamlFiles():
 
 				#the last one always scores 1
 				appendTestCase(output, count-1, 1)				
+
+def pythonFiles():
+	for folder in os.listdir(PROBLEMS_DIR):
+		problem = os.path.join(PROBLEMS_DIR, folder)
+				
+		for file in os.listdir(problem):
+			if file.endswith(".json"):
+				with open(os.path.join(problem, file), 'r') as f:
+					data = json.load(f)
+
+			if file.endswith(".md"):
+				with open(os.path.join(problem, file), 'r') as f:
+					descrioption = f.read()
+					
+		#create the file
+		output = os.path.join(problem, "import.py")
+		os.system(f"touch {output}")
+		os.system(f"echo '' > {output}")
+
+		os.system(f"""cat <<EOT >> {output}
+from django.utils import timezone
+from django.contrib.auth.models import User
+from judge.models import Problem, Judge
+
+p = Problem.objects.get(id={PROBLEMS_TEMPLATE_ID})
+p.pk = None
+p.code="{data['model']['slug']}"
+p.name="{data['model']['name']}"
+p.summary="{data['model']['preview']}"
+p.description='''{descrioption}'''
+p.is_public=True
+p.date=timezone.now()
+p.save()
+""")
+		
 
 def appendTestCase(output, i, points):
 	num = str(i).zfill(2)
