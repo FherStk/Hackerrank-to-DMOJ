@@ -65,6 +65,7 @@ def pythonFiles():
 		os.system(f"touch {output}")
 		os.system(f"echo '' > {output}")
 
+		#TODO: code must be truncated to 20
 		os.system(f"""cat <<EOT >> {output}
 from django.utils import timezone
 from django.contrib.auth.models import User
@@ -72,7 +73,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id={PROBLEMS_TEMPLATE_ID})
 p.pk = None
-p.code="{data['model']['slug']}"
+p.code="{data['model']['slug'][0:20]}"
 p.name="{data['model']['name']}"
 p.summary="{data['model']['preview']}"
 p.description='''{descrioption}'''
