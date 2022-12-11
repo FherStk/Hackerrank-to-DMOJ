@@ -6,8 +6,8 @@ PROBLEMS_TEMPLATE_ID = 1
 
 def main():
 	html2md()
-	#yamlFiles()
-	#pythonFiles()
+	yamlFiles()
+	pythonFiles()
 
 def html2md():
 	for folder in os.listdir(PROBLEMS_DIR):
