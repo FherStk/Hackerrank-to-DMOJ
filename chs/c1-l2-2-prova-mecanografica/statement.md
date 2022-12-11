@@ -121,3 +121,8 @@ Velocitat: **72** PPM
 
     0
     12
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

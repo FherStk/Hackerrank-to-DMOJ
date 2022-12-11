@@ -131,3 +131,8 @@ Tenen la mateixa proporció, però el marc és més petit que la foto:
 **Sample Output 7**
 
     false
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

@@ -98,3 +98,8 @@ segments.
     String[] path = {"downloads", "gnu", "linux"};
     String[] query = {"v=2.21", "dev=true"};
     String fragment = "arch";
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

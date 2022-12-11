@@ -178,3 +178,8 @@ sud.
 
     Hivern
     Estiu
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

@@ -132,3 +132,8 @@ residuo **0**.
     4) 0 0
     5) 0 3
     6) 0 1
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

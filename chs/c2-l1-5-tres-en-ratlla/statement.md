@@ -106,3 +106,8 @@ Jugador1 | Jugador2 | Empat
 **Sample Output 8**
 
     Empat
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

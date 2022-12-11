@@ -387,3 +387,8 @@ línies en blanc).
     .\ti/)vv-2/c)|\\tLb@@@@@@@@@@@@@@@@@@@@M@@@@@m!LcvV\t|-(//\v/`!]
     -c((v\Tc/\i|v\\\c!]/Kd@@@@@@@@@@@@@@@@@@@ddL!,!(5c|v)\L\)-!(/!-]
     |)\L_!\v-!/tcc/=2[-/(!c(KKmd@@@@@@@ddbgJJ/\\-(`)+s//([[[[|v)ti`i
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

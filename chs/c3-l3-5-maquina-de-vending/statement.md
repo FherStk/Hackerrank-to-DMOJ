@@ -176,3 +176,8 @@ màquina:
     Balance:0.25
     Refund:0.25
     Insert coin
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

@@ -66,3 +66,8 @@ Cada paraula en una nova línia
     c
     d
     e
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

@@ -74,3 +74,8 @@ Un entero indicando la cantidad de números leídos
 ``` 
 2
 ```
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

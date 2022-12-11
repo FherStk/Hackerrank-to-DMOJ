@@ -59,3 +59,8 @@ La primera i la segona medició no són de pujada
 **Sample Output 3**
 
     INCORRECTE
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

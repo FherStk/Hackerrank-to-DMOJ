@@ -65,3 +65,8 @@ Cadascún dels 7 esquirols pren 6 nous, en sobren 6.
 **Sample Output 3**
 
     2899
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

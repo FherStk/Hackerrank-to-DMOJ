@@ -165,3 +165,8 @@ Exemples:
 **Sample Output 13**
 
     256 bytes = 2 Kibits
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

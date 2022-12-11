@@ -45,3 +45,8 @@ Crea els objectes necessaris.
     @user_two
     Empty message
     ------------------------------
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

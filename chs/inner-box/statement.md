@@ -17,3 +17,8 @@ que la classe definida.
 **Sample Output 0**
 
     4.75
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

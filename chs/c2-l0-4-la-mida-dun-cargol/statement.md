@@ -149,3 +149,8 @@ La mida del cargol en centímetres (int).
 **Sample Output 12**
 
     mida incorrecta
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

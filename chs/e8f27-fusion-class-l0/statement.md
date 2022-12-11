@@ -20,3 +20,8 @@ Crea el mètode Fusion.fusionar()
     Trunks: fuerza=70, velocidad=90
     Gotenks: fuerza=150, velocidad=190
     Gogeta: fuerza=190, velocidad=190
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

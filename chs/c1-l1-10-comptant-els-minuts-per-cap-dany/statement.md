@@ -58,3 +58,8 @@ Queden 1440 minuts (tot el dia)
 **Sample Output 3**
 
     687
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

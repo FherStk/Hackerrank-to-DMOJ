@@ -13,3 +13,8 @@ La teva solució no ha de tenir `<>`.
 **Output Format**
 
 \-
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

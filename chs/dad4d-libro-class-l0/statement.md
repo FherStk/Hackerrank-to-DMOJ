@@ -59,3 +59,8 @@ Crea les classes `Libro` i `Autor`
     *****
     Samuel P. Harbison
     *****
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

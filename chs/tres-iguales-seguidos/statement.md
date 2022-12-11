@@ -27,3 +27,8 @@ salto de línea.
     SI
     NO
     SI
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

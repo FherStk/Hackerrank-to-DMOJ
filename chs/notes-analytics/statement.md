@@ -115,3 +115,8 @@ Aprova | Suspen
 **Sample Output 6**
 
     Suspen
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

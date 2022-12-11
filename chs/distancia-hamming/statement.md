@@ -123,3 +123,8 @@ Si són de distinta longitud s'imprimirá -1.
 ``` 
 -1
 ```
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

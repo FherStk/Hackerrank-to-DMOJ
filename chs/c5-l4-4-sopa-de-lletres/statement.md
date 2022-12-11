@@ -173,3 +173,8 @@ estar més d'una vegada)
     E j u D u h k l b B R E A K
     j I M P O R T e E L S E S e
     F A L S E B O O L E A N S a
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

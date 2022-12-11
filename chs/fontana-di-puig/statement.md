@@ -103,3 +103,8 @@ La entrada acabará con un 0.
     50) 0
     100) 1
     200) 0
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

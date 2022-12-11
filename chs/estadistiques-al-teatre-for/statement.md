@@ -135,3 +135,8 @@ c = total persones majors de 65
     0-17 : 3
     18-65: 0
     +65  : 18
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

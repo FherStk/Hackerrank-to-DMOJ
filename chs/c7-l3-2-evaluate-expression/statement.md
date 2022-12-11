@@ -109,3 +109,8 @@ El resultat de l'expressió
 **Sample Output 9**
 
     512919
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

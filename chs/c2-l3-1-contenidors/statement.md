@@ -277,3 +277,8 @@ d'error "Invalid command  for state "
 **Sample Output 29**
 
     DELETED
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

@@ -150,3 +150,8 @@ mirar cap més camp d'ordenació.
     192.168.127.127 8 2000 500
     192.168.10.8    4 2000 500
     192.168.35.64   4 2000 500
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

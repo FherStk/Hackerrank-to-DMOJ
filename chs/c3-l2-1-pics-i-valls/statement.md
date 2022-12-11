@@ -162,3 +162,8 @@ Hi ha zero pics, una vall, el màxim és 5 i el mínim 1
     3
     9
     1
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

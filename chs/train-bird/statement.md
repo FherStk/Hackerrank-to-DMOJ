@@ -92,3 +92,8 @@ kms.
 **Sample Output 4**
 
     256.59363
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

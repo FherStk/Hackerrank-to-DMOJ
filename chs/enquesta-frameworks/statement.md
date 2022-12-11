@@ -84,3 +84,8 @@ no
     Quin?
     S'ha registrat la resposta: Spring
     Gracies per contestar
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

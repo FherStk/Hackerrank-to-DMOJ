@@ -54,3 +54,8 @@ dades de l'entrada.
     Descripcio: DDR4 3200 PC4-25600 16GB 2x8GB CL16
     Preu:       113.39
     Stock:      55
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

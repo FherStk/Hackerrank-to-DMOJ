@@ -140,3 +140,8 @@ El número de la successió de Fibonacci que ocupa la posició N
 **Sample Output 10**
 
     75025
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

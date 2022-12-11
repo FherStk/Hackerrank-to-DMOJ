@@ -69,3 +69,8 @@ cada número llegit de l'entrada.
     09:09:08
     00:00:00
     09:30:35
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

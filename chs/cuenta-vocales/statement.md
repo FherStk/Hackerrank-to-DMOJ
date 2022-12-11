@@ -73,3 +73,8 @@ cantidad de 'e', etc.
     2
     2
     1
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

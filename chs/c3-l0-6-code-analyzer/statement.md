@@ -109,3 +109,8 @@ S'imprimirà la quantitat de classes definides.
 ``` 
 0
 ```
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

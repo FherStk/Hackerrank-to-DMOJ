@@ -42,3 +42,8 @@ l'equació:
     1.00 * -5.00 + 5.00 = 0
     2.00 * -5.00 + 10.00 = 0
     5.00 * -5.00 + 25.00 = 0
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

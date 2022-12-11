@@ -59,3 +59,8 @@ línia.
 **Sample Output 3**
 
     int[] myArray = { 67 };
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

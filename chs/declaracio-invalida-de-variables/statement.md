@@ -16,3 +16,8 @@ tipus correcte.
 **Sample Output 0**
 
     3943574
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

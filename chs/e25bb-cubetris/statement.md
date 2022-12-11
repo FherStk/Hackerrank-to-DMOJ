@@ -122,3 +122,8 @@ Se imprimirá el tablero resultante tras tras colocar (o no) la pieza.
     0 0 0
     0 1 1
     1 1 1
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

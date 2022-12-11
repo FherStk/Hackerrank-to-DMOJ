@@ -91,3 +91,8 @@ El preu del bolet.
 **Sample Output 8**
 
     82.075
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

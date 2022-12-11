@@ -127,3 +127,8 @@ pràctiques i ha aprovat l'examen, per tant les aprova. Aprova el mòdul.
 **Sample Output 5**
 
     true
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

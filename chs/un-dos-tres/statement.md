@@ -543,3 +543,8 @@ S'imprimirà la figura de més valor.
 **Sample Output 63**
 
     THREE OF A KIND
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

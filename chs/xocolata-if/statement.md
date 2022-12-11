@@ -109,3 +109,8 @@ SI
 ``` 
 NO
 ```
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

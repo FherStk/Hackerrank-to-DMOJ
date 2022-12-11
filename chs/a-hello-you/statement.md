@@ -44,3 +44,8 @@ una exclamació "\!"
 **Sample Output 3**
 
     Hola Maria Elena!
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

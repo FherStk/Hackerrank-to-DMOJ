@@ -46,3 +46,8 @@ La frase sin las vocales.
 ``` 
 xx
 ```
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

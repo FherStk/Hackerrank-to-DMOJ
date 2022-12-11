@@ -29,3 +29,8 @@ Crea la classe Alumne
 **Sample Output 1**
 
     Nota media: 5.0
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

@@ -50,3 +50,8 @@ S'imprimiran el nombre de zeros i uns separats per espai en blanc
 **Sample Output 2**
 
     6 9
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

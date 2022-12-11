@@ -163,3 +163,8 @@ a las dos capas.
     1 1 1 1 1 
     2 1 1 2 2 
     3 2 3 3 3
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

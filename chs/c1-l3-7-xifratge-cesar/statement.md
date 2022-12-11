@@ -114,3 +114,8 @@ S'escriurà la paraula codificada.
 **Sample Output 7**
 
     byte
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

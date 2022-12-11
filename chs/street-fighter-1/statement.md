@@ -400,3 +400,8 @@ Aquest event **no** modifica l'estat del personatge.
 **Sample Output 39**
 
     PUNCHING
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

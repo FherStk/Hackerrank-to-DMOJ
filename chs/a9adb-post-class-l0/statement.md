@@ -29,3 +29,8 @@ Implementa el constructor de la classe Post.
     | Global warming is a HOAX         |
     | <3 200            & 1000         |
     ------------------------------------
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

@@ -106,3 +106,8 @@ resultats*
 
     [5, -1, -1, 3, -2, 4, -1, -3, -3, 1]
     [5, 9, 12, 18, 22, 30, 37, 41, 42, 44]
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

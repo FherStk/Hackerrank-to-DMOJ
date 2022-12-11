@@ -230,3 +230,8 @@ blanc, després una barra vertical i després un altre espai.
 60 |     }
 61 | }
 ```
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

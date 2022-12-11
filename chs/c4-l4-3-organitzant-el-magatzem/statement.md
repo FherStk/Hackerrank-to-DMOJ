@@ -234,3 +234,8 @@ buits del magatzem s'indiquen amb un punt.
     llljzz.sl.
     ...j.zz.l.
     ..jj....ll
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

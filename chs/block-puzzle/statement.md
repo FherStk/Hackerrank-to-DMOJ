@@ -128,3 +128,8 @@ Se imprimirá `true` si la ficha se puede colocar en esa posición, y
 **Explanation 4**
 
 true
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

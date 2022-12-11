@@ -44,3 +44,8 @@ Completa els constructors de els classes Taula, Fila, Columna i Casella
     xxxxxxxxxxxxxxxxxxxxxxxxx
     xxxxxxxxxxxxxxxxxxxxxxxxx
     xxxxxxxxxxxxxxxxxxxxxxxxx
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

@@ -94,3 +94,8 @@ La data de caducitat 1/1/2030 és major que la data actual 1/1/2020
 **Sample Output 7**
 
     false
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

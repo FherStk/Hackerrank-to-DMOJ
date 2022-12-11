@@ -49,3 +49,8 @@ Crea l'objecte `song` i asigna-li els camps amb les dades de l'entrada.
    Led Zeppelin - Whole Lotta Love
 ****
 ```
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

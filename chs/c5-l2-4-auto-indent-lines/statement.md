@@ -351,3 +351,8 @@ END
         }
         a();
     }
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

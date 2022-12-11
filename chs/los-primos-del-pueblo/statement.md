@@ -37,3 +37,8 @@ de línea.
 
     2
     0
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

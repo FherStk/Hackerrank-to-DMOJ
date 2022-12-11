@@ -113,3 +113,8 @@ el `0` pel valor corresponent)
     S'ha excedit 0h 4m 35s
     S'ha excedit 0h 59m 55s
     S'ha excedit 2h 59m 55s
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

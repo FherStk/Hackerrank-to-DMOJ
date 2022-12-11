@@ -88,3 +88,8 @@ S'imprimira el nombre de "cubelets" que té el cub.
 **Sample Output 6**
 
     5999988000008
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

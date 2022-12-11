@@ -60,3 +60,8 @@ Un entero indicando el número de palabras
 ``` 
 8
 ```
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

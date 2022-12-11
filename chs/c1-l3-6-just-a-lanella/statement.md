@@ -139,3 +139,8 @@ en cas contrari
 **Sample Output 9**
 
     false
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

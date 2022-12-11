@@ -53,3 +53,8 @@ Crea la classe `CreditCard`.
     1234 5678 9123 4567 
     Saldo: 9999999.0
     Limit: 0.9
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

@@ -296,3 +296,8 @@ Seguint l'exemple proposat, el tauler resultant quedaria així:
     ##########@######
     ##########@######
     ##########@######
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

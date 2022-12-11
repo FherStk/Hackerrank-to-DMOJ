@@ -120,3 +120,8 @@ La posició del cavall, i del dos peons
 ``` 
 1
 ```
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

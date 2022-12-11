@@ -372,3 +372,8 @@ Predefinit
      |          |      ######### 
 ---------------------------------
 ```
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

@@ -103,3 +103,8 @@ Se imprimirá el precio total del pedido en formato float.
 **Sample Output 3**
 
     17.0
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

@@ -6,8 +6,8 @@ PROBLEMS_TEMPLATE_ID = 1
 
 def main():
 	html2md()
-	yamlFiles()
-	pythonFiles()
+	#yamlFiles()
+	#pythonFiles()
 
 def html2md():
 	for folder in os.listdir(PROBLEMS_DIR):
@@ -18,6 +18,14 @@ def html2md():
 				html = os.path.join(problem, file)
 				md = os.path.join(problem, "statement.md")
 				os.system(f"pandoc {html} -t gfm-raw_html -o {md}")
+				os.system(f"""cat <<EOT >> {md}
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
+""")
+
 
 def yamlFiles():
 	for folder in os.listdir(PROBLEMS_DIR):
@@ -65,7 +73,6 @@ def pythonFiles():
 		os.system(f"touch {output}")
 		os.system(f"echo '' > {output}")
 
-		#TODO: code must be truncated to 20
 		os.system(f"""cat <<EOT >> {output}
 from django.utils import timezone
 from django.contrib.auth.models import User

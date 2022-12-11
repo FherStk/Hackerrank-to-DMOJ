@@ -263,3 +263,8 @@ realment no està enmig.
 **Sample Output 27**
 
     false
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

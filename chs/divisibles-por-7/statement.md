@@ -37,3 +37,8 @@ Un "SI" o un "NO" por cada número leído.
 ``` 
 SI
 ```
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

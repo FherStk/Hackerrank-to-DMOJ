@@ -66,3 +66,8 @@ Se li ha realitzat manteniment 2 dies, durant 4 hores en total
 
     1
     10
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

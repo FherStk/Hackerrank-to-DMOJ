@@ -116,3 +116,8 @@ La seqüència de nombres generada, separats per un salt de línía.
     37
     45
     34
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

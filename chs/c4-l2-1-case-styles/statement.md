@@ -86,3 +86,8 @@ En kebab-case totes les lletres van sempre en minúscula, i separades amb
     AbstractTransactionalDataSourceSpringContextTests
     abstract-transactional-data-source-spring-context-tests
     abstract_transactional_data_source_spring_context_tests
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

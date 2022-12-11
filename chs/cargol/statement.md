@@ -99,3 +99,8 @@ Tres números enters positius: ,  i
 ``` 
 4
 ```
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

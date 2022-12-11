@@ -40,3 +40,8 @@ text
 **Sample Output 2**
 
     AZaz09
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

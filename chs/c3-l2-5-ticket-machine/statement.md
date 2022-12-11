@@ -139,3 +139,8 @@ S'anirà mostrant el resultat de les operacions:
     Balance: 20
     Ticket: 20
     Balance: 10
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

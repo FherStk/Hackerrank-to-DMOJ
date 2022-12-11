@@ -70,3 +70,8 @@ text, s'imprimirà
 ``` 
 0
 ```
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

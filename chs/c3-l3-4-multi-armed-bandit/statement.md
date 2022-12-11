@@ -244,3 +244,8 @@ Es mostra el primer i es fa clic (true)
 **Sample Output 4**
 
     [16.666668, 19.081633, 17.647058]
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

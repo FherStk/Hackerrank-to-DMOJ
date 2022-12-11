@@ -69,3 +69,8 @@ La suma
 **Sample Output 4**
 
     500500
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

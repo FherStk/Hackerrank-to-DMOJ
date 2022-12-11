@@ -54,3 +54,8 @@ Implementa el mètode Race.fastest()
 **Sample Output 3**
 
     No bikes
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

@@ -172,3 +172,8 @@ En cas de que no es puig satisfer amb cap, es mostrarà:
 **Sample Output 12**
 
     IMPOSSIBLE
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

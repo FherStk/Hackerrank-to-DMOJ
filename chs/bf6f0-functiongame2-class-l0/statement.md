@@ -108,3 +108,8 @@ Crea els mètodes de la classe FunctionGame2
     10,10,11 -> [10, 10, 11]
     11,10,10 -> [10, 10, 11]
     12,12,12 -> [12, 12, 12]
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

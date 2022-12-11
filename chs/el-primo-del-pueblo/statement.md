@@ -101,3 +101,8 @@ true | false
 **Sample Output 8**
 
     true
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

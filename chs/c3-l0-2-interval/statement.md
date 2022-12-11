@@ -44,3 +44,8 @@ S'imprimiran els nombres de l'interval, sense separació entre ells.
 **Sample Output 3**
 
     0123456789101112131415161718192021222324
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

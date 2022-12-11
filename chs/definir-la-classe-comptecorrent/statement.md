@@ -12,3 +12,8 @@ enter `saldo`, un String `nomPropietari`, i un boolean `bloquejada`.
 **Output Format**
 
 \-
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

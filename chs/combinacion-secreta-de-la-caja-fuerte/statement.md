@@ -55,3 +55,8 @@ combinación secreta o "CERRADA" en caso contrario.
 **Sample Output 3**
 
     CERRADA
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

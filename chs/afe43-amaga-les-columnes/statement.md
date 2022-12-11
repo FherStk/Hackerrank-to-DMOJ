@@ -114,3 +114,8 @@ Campo51
     Campo32   
     Campo42   
     Campo52
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

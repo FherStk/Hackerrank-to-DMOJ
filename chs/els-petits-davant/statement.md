@@ -100,3 +100,8 @@ tres números enters
 **Sample Output 10**
 
     true
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

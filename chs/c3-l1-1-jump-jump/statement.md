@@ -115,3 +115,8 @@ al final.
 ``` 
 3
 ```
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

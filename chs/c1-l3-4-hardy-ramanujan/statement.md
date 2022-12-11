@@ -108,3 +108,8 @@ si no ho és
 **Sample Output 10**
 
     false
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

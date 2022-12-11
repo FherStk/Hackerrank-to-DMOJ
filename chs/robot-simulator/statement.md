@@ -97,3 +97,8 @@ Primer la posició , i després la posició .
 
     -3
     -2
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

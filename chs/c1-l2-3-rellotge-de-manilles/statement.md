@@ -96,3 +96,8 @@ manilla dels segons està a 0º
     195.25
     183.0
     180.0
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

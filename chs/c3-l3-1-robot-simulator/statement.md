@@ -154,3 +154,8 @@ robot
 
     {141, -36}
     E
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

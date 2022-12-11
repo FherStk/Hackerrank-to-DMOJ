@@ -76,3 +76,8 @@ NO
 **Sample Output 3**
 
     YES
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

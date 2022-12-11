@@ -152,3 +152,8 @@ El nombre de llumins necessaris per fer la piràmide.
 **Sample Output 10**
 
     1498500
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

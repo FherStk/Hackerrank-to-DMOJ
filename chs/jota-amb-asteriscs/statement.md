@@ -21,3 +21,8 @@ Escriu un programa que imprimeixi la lletra `J` amb asteriscs.
     **    **
     **    **
      *******
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

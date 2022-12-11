@@ -81,3 +81,8 @@ El factorial
 **Sample Output 5**
 
     2004310016
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

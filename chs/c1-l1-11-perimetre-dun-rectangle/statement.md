@@ -87,3 +87,8 @@ Un nombre enter indicant el perímetre del rectangle
 ``` 
 14
 ```
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

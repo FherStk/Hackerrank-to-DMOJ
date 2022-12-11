@@ -150,3 +150,8 @@ O
 ``` 
 -
 ```
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

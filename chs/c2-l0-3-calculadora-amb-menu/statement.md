@@ -152,3 +152,8 @@ S'imprimirà el resultat de l'operació
     4.-DIVIDIR
     Esculli una opcio:
     2343168
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

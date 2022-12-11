@@ -20,3 +20,8 @@ el resultat que s'indica a **Sample Output**.
     2000.0
     true
     true
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

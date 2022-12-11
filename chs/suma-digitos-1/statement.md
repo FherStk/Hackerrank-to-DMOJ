@@ -51,3 +51,8 @@ Un número entero
 ``` 
 46
 ```
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

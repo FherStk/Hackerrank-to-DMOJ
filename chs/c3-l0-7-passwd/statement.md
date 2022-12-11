@@ -151,3 +151,8 @@ S'imprimiràn les dades dels usuaris amb el format de la l'arxiu
 **Sample Output 3**
 
     user1001:$1$vDPhC74V3fXYq18yO6t8ZQ==:1001:1000:Usuari 1001:/home/user1001:/bin/bash
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

@@ -40,3 +40,8 @@ Completa el mètode main():
     --------------------
     Aqui sota hi surt una line de 30 guions
     ------------------------------
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

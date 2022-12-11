@@ -81,3 +81,8 @@ en pie, cada uno en una línea, y con el formato: `nombre: fuerza`
 **Sample Output 2**
 
     G: 4
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

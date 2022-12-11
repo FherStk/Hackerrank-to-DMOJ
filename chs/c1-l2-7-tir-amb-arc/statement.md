@@ -151,3 +151,8 @@ compta la puntuació del blau.
 ``` 
 4
 ```
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

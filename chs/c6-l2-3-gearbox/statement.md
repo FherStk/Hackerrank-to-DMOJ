@@ -109,3 +109,8 @@ Implementa els mètodes GearBox.gearUp() i GearBox.gearDown()
     Current gear: R
     Current gear: R
     Current gear: R
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

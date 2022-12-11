@@ -130,3 +130,8 @@ Cada número o `Fizz` o `Buzz` o `FizzBuzz` en una línia diferent
 **Sample Output 7**
 
     FizzBuzz
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

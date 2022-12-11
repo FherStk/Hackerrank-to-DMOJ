@@ -100,3 +100,8 @@ al premi.
     No, no @3
     Mmmmmm @4
     PREMI
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

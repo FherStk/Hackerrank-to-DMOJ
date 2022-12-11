@@ -96,3 +96,8 @@ S'escriurà la seqüència d'events de la "salutació" secreta
     fer l'ullet
     fer l'ullet
     fer l'ullet
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

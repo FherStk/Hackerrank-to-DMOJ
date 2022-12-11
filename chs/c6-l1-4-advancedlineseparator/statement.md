@@ -51,3 +51,8 @@ Completa el mètode Solution.main():
     ########################################
     Aqui sota apareix una linea de 50 =
     ==================================================
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

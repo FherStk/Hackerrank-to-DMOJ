@@ -123,3 +123,8 @@ El nombre de peces necessàries
 **Sample Output 8**
 
     333333833333500000
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

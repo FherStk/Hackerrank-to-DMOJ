@@ -55,3 +55,8 @@ El primer llum està encés
 **Explanation 2**
 
 L'últim llum està encés
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

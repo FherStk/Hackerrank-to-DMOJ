@@ -122,3 +122,8 @@ SI
     NO
     NO
     SI
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

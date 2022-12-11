@@ -66,3 +66,8 @@ cual sale el personaje.
 **Sample Output 2**
 
     0 5
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

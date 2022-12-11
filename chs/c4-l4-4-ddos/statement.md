@@ -166,3 +166,8 @@ i entre la quarta i la setena (0.2+0.6+0.1).
     DDoS alert
     DDoS alert
     DDoS alert
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

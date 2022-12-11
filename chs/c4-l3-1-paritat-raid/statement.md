@@ -237,3 +237,8 @@ bits, per tant es van escrivint 4 bits en cada disc
     Disk 3: 01101101100010011001100000110110
     Disk 4: 01100101101010111111010111011010
     Parity: 01110110100100100100111111011010
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

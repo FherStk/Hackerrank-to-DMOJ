@@ -396,3 +396,8 @@ Gretel recuperant les engrunes de pa.
     #H       #
     #        #
     ##########
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

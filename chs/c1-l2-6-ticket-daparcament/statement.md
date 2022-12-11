@@ -143,3 +143,8 @@ La tarifa és 0.5 minuts per euro (30 segons per euro) S'han introduït
 **Sample Output 8**
 
     10:47:33
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

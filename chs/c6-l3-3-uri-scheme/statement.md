@@ -53,3 +53,8 @@ S'imprimirà la URL ben formada.
 **Sample Output 2**
 
     https://domainname.org/document?t=www&s=1#new
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

@@ -67,3 +67,8 @@ L'string amb els caracters en ordre invers.
 **Sample Output 6**
 
     is this a very long reversed string? yes, it is.
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

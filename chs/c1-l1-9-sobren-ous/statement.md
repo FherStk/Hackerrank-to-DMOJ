@@ -77,3 +77,8 @@ No necessitará cap ouera, ni cap ou
 **Sample Output 3**
 
     2 0
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

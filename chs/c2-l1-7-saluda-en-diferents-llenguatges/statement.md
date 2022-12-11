@@ -152,3 +152,8 @@ idioma, com es diu hola?`, i aleshores s'imprimirà la salutació rebuda.
 **Sample Output 13**
 
     Buna ziua
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

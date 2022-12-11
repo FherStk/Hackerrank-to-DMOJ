@@ -72,3 +72,8 @@ La puntuació obtinguda
 ``` 
 23
 ```
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

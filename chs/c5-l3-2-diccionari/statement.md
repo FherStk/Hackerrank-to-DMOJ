@@ -92,3 +92,8 @@ inicialitzi un array d'strings amb les paraules, anomenat "words".
             "rocks"
         };
     }
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

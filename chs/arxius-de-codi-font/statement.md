@@ -66,3 +66,8 @@ S'imprimirà cada arxiu en una línia, primer el  i després el
     Archivo Structured Query Language query.sql
     Archivo assembler out.asm
     Archivo TypeScript index.ts
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

@@ -77,3 +77,8 @@ TEST SUSPENDIDO
  a  b  b  c  a  c  a  c  b  a  a  c  b  a  a  a  b  a  b  a  c  a  c  c  a  a  c  c  a  c 
        a        b  b        c                    c  c           b                 a      
 ```
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

@@ -70,3 +70,8 @@ si les seqüències no són iguals
 **Sample Output 5**
 
     false
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

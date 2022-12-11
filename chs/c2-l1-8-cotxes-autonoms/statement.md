@@ -180,3 +180,8 @@ S'imprimirà "CONTINUAR" o "NO CONTINUAR"
 **Sample Output 17**
 
     NO CONTINUAR
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

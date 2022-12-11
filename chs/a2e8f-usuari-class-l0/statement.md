@@ -20,3 +20,8 @@ inicialitzar els objectes necessaris.
   1002 | equito   | Esteban Quito    | equito@mail.com    
   1003 | centes   | Cindy Entes      | centes@mail.com  
 ```
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

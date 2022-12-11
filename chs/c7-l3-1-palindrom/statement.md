@@ -71,3 +71,8 @@ aa
 **Sample Output 6**
 
     false
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

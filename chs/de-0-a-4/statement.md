@@ -20,3 +20,8 @@ Cada nombre ha d'estar en una nova línia.
     2
     3
     4
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

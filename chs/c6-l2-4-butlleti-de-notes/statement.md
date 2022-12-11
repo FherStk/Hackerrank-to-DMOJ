@@ -67,3 +67,8 @@ Afegeix els camps i mètodes que falten a la classe ReportCard.
 **Sample Output 4**
 
     Average Grade: 7.75
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

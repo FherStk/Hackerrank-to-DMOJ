@@ -172,3 +172,8 @@ Per últim caldrà indicar el número de tuples retornades per la consulta:
     Firefox         |Mozilla         |      0.00
     PostgreSQL      |PGDB            |      0.00
     (15 rows)
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

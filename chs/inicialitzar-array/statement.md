@@ -22,3 +22,8 @@ Utilitza la plantilla proporcionada.
     8
     101
     33
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

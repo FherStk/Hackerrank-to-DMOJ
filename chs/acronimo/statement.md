@@ -74,3 +74,8 @@ HW
 **Sample Output 6**
 
     WYSIWYG
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

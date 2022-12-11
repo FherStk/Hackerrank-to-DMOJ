@@ -97,3 +97,8 @@ La posició de cada lletra en una línia diferent.
     11
     19
     25
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

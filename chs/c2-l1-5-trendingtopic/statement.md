@@ -267,3 +267,8 @@ missatges
     #python 10
     #csharp 8
     #human 1
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

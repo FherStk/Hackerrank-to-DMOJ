@@ -720,3 +720,8 @@ La bandera corresponent, del tamany indicat.
     *~*~*~*~*~*~*~*~*~*~*~*~
     *~*~*~*~*~*~*~*~*~*~*~*~
     *~*~*~*~*~*~*~*~*~*~*~*~
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

@@ -137,3 +137,8 @@ El 17 es divisible por 1 y 17
 ``` 
 2
 ```
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

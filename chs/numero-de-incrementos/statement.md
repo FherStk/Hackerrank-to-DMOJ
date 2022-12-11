@@ -88,3 +88,8 @@ No se ha producido ningún incremento.
 ``` 
 79
 ```
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

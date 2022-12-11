@@ -18,3 +18,8 @@ camp enter `yearOfPublishing` i camp booleà `isAvailable`.
     Through the looking glass
     1871
     true
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

@@ -110,3 +110,8 @@ blanc, després de realitzar totes les ordres.
 **Sample Output 3**
 
     0 0
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

@@ -73,3 +73,8 @@ encontrado la palabra a buscar, cada una en una línea.
 ``` 
 7
 ```
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

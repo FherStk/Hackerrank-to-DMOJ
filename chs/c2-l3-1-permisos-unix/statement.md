@@ -103,3 +103,8 @@ S'imprimiran els permisos efectius
 **Sample Output 7**
 
     rwx
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

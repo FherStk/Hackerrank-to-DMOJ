@@ -52,3 +52,8 @@ La secuencia de números resultante, separados por espacios en blanco
 ``` 
 20
 ```
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

@@ -62,3 +62,8 @@ L'entrada consta de 4 línies:
     Sra. Garcia Romero, Juana
     
     El principal objectiu de la present carta...
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

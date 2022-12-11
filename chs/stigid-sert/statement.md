@@ -48,3 +48,8 @@ Un enter de 3 xifres
 ``` 
 1
 ```
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

@@ -74,3 +74,8 @@ Las dos secuencias separadas por un salto de línea.
 
     12 12 13 15 16 17
     18 19 20 18
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

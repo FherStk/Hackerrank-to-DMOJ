@@ -35,3 +35,8 @@ El text amb l'ordre dels caracters invertit.
 **Sample Output 2**
 
     gcaatcgattcgatcgc
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

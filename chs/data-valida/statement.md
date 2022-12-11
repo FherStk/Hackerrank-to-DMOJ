@@ -161,3 +161,8 @@ El 1904 és bixest
 **Sample Output 14**
 
     false
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

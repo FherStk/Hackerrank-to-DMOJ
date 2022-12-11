@@ -262,3 +262,8 @@ Al final se imprimirá el tiempo total de viaje (en segundos).
     Pacifico
     Arganzuela
     1310
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

@@ -19,3 +19,8 @@ Per fer-ho, assigna correctament els valors a les variables.
 **Sample Output 0**
 
     3 5 4
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

@@ -42,3 +42,8 @@ Si solament s'utilitza 1 moneda en el desglossament, s'ha d'imprimir
     4 monedes de 500
     5 monedes de 5
     1 moneda de 1
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

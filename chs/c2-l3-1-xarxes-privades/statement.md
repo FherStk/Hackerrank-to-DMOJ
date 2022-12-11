@@ -159,3 +159,8 @@ s'indicarà si és una adreça pública o privada.
     First IP: 235.84.32.0
     Last IP: 235.84.63.255
     Public
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

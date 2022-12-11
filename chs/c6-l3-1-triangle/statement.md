@@ -41,3 +41,8 @@ Implementa el mètodes de la classe Triangle:
 
     Area triangle1: 0.00
     Area triangle2: 0.00
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

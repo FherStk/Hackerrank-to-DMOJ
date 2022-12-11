@@ -131,3 +131,8 @@ La suma dels dígits de cada nombre, separats per un salt de línia
 ``` 
 0
 ```
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

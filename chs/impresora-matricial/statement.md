@@ -125,3 +125,8 @@ espacios y una almohadilla Se imprime un salto de línea (-1) Se imprimen
    ##     ##
      #####
 ```
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

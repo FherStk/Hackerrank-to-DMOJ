@@ -208,3 +208,8 @@ YYY888bbb                        ,,,```***YYY888bbbnnn...            ,,,ddd888PP
      $$[         ]$$
     j$$[         ]$$$L
     j$$[         ]$$$L
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

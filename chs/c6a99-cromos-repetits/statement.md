@@ -116,3 +116,8 @@ No té cap cromo repetit
     64: 2
     66: 3
     68: 2
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

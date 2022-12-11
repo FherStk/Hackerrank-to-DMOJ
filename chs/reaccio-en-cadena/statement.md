@@ -193,3 +193,8 @@ comptar per 1)
 ``` 
 10
 ```
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

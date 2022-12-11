@@ -105,3 +105,8 @@ Un alumne ha obtingut Insuficient
     B:
     S:
     I:
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

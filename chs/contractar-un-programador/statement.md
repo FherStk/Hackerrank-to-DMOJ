@@ -91,3 +91,8 @@ no coneix el llenguatge...
 **Sample Output 5**
 
     false
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

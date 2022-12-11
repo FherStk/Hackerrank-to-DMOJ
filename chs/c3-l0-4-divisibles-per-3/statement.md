@@ -78,3 +78,8 @@ S'imprimirà cada número en una línia.
 
     3
     6
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

@@ -59,3 +59,8 @@ Un número indicant la capacitat total de passatagers
 ``` 
 60
 ```
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

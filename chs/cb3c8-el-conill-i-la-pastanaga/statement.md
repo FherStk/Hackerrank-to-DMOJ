@@ -124,3 +124,8 @@ menjar-se totes les pastanagues en l'ordre correcte.
 **Sample Output 5**
 
     104
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

@@ -17,3 +17,8 @@ Escriu un programa Java que mostri aquesta cita d'Einstein:
 **Sample Output 0**
 
     Life is like riding a bicycle. To keep your balance you must keep moving.
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

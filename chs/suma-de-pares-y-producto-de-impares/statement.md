@@ -45,3 +45,8 @@ números llegits (sense comptar el -1).
     14
     441
     8
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

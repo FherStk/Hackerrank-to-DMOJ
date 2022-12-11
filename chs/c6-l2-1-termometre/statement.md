@@ -85,3 +85,8 @@ Implementa els mètodes de la classe Thermometer:
     9032.00F
     5273.15K
     --------
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

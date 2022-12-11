@@ -178,3 +178,8 @@ Els parèntesis estan ben emparellats
 
     ERROR: parentesi 1 mal tancat
     ERROR: falta tancar 1 parentesis
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

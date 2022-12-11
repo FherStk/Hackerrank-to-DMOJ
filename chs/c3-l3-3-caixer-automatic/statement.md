@@ -176,3 +176,8 @@ i  s'han de mostrar amb dues xifres decimals.
     Operacio no valida
     Operacio no valida
     >> Saldo: 10.00
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

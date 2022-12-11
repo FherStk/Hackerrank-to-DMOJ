@@ -53,3 +53,8 @@ El nom i la puntuació del guanyador
 **Sample Output 2**
 
     Grace 105
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

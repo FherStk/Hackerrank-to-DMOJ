@@ -168,3 +168,8 @@ Cada operación se escribira con el siguiente formato:
     10 x 8 = 80
     10 x 9 = 90
     10 x 10 = 100
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

@@ -75,3 +75,8 @@ menor
 
 Els dos equips tenen 15 punts, però la diferència de gols de l'equip A
 és major.
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

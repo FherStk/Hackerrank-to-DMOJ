@@ -274,3 +274,8 @@ YOU WIN
  | / \ 
  |____  
 ```
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

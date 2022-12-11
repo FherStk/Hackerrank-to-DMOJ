@@ -43,3 +43,8 @@ DOBLE KO.
 **Sample Output 2**
 
     DOUBLE KO
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

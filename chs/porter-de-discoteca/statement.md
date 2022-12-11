@@ -421,3 +421,8 @@ contrari.
 **Sample Output 47**
 
     NO ENTRA
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

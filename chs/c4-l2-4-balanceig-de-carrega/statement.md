@@ -138,3 +138,8 @@ El bloc de tamany **5** s'escriu al tercer disc:
 **Sample Output 4**
 
     407 423 425 435 411 485 420 415
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

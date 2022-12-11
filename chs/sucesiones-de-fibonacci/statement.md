@@ -67,3 +67,8 @@ Un "SI" o un "NO" per cada seqüència; separats per un salt de línia.
     NO
     NO
     SI
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

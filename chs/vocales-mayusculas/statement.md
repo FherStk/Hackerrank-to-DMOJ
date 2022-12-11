@@ -50,3 +50,8 @@ El mismo texto con las vocales en mayúscula.
     cOnsEctEtUr AdIpIscIng ElIt.
     AlIqUAm Ut IAcUlIs EnIm,
     sIt AmEt tEmpOr mAssA.
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

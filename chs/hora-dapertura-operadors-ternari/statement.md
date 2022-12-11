@@ -70,3 +70,8 @@ L'entrada és un dia de la setmana.
 **Sample Output 6**
 
     10:00
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

@@ -45,3 +45,8 @@ Crea les classes necessàries.
     ShoppingCart
                LILLHULT MiniUSB cable, 0.4 m    2.25
             LILLHULT USB tipo C cable, 1.5 m    4.45
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

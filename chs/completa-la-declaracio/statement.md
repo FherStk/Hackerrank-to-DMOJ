@@ -18,3 +18,8 @@ No oblidis el `;` al final de la sentència.
 **Sample Output 0**
 
     123456
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

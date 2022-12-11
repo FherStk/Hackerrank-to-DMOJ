@@ -76,3 +76,8 @@ amb el format següent:
     5.5 euros arros
     27.5 euros gambes
     TOTAL: 33.0 euros
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

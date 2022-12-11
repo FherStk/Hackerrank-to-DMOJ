@@ -68,3 +68,8 @@ a paràmetre la posició d'un led, i inverteix el seu estat.
     ( )(*)( )(*)( )
     ( )( )( )(*)( )
     ( )( )( )( )( )
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

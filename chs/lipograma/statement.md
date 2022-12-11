@@ -67,3 +67,8 @@ true | false
 **Sample Output 4**
 
     false
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

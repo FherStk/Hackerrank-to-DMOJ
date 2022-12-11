@@ -195,3 +195,8 @@ Per exemple: suposem que el bit-field es **34**:
 **Sample Output 7**
 
     EXT4_NODUMP_FL
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

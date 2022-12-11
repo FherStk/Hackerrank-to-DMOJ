@@ -60,3 +60,8 @@ La seqüència resultant
 **Sample Output 4**
 
     4 6 3 4 5 6 4 0
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

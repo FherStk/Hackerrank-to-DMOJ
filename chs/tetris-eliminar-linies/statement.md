@@ -96,3 +96,8 @@ S'imprimirà el tauler resultant amb el mateix format que a l'entrada.
     1 1 1 1
     1 1 1 1
     1 1 1 1
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

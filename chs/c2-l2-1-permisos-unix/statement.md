@@ -229,3 +229,8 @@ S'imprimiran els permisos en format caràcter.
 **Sample Output 20**
 
     rwsrwsrwt
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

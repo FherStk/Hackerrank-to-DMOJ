@@ -51,3 +51,8 @@ S'imprimirà el jugador que guanya: `primer jugador` | `segon jugador`
 **Sample Output 3**
 
     segon jugador
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

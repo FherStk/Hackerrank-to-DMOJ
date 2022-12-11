@@ -21,3 +21,8 @@ Implementa els mètodes switchOn() i switchOff() de la classe Led.
     (*)( )
     (*)(*)
     ( )(*)
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

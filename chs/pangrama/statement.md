@@ -47,3 +47,8 @@ true | false
 **Sample Output 3**
 
     false
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

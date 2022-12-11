@@ -82,3 +82,8 @@ El número de vegades apareixen 4 números iguals seguits.
 ``` 
 1
 ```
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

@@ -47,3 +47,8 @@ han de ser `true`. La sèrie acaba amb un `-1`.
 **Sample Output 3**
 
     [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

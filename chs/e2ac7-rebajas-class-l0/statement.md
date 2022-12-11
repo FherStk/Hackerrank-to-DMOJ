@@ -41,3 +41,8 @@
 
     Producto{descripcion='productoV', precio=4.5}
     Producto{descripcion='productoV', precio=4.4325}
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

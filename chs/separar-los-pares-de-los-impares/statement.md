@@ -124,3 +124,8 @@ Valor imparell: 1, 3
     
     4 2 6 8 0 4 6 8 0 4 
     3 5 7 1 5 3 5 3 7 1
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

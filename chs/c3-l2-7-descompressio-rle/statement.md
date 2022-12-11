@@ -71,3 +71,8 @@ La cadena descomprimida
 **Sample Output 5**
 
     JAVA
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

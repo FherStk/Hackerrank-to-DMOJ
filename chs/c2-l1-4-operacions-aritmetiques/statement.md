@@ -89,3 +89,8 @@ zero` i `Error: operation not permitted` en el seu cas.
 **Sample Output 7**
 
     Error: division by zero
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

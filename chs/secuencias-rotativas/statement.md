@@ -77,3 +77,8 @@ La seqüència de números impresos separada per espais.
 **Sample Output 5**
 
     1 2 3 1 2 3 1 2 3 1 2 3 1 2 3 1 2 3 1 2
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

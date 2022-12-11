@@ -234,3 +234,8 @@ La propietat  de l'últim DIV correspon a la mitjana anual per mesos.
 **Explanation 4**
 
 ![image](1573834469-27a011b8ea-Screenshot_2019-11-15Screenshot6.png)
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

@@ -105,3 +105,8 @@ a
 
     u
     i
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

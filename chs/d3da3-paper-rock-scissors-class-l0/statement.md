@@ -35,3 +35,8 @@ Implementa les classes Game i Player
 **Sample Output 2**
 
     PLAYER 1 WINS
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

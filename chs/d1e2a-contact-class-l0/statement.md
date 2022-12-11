@@ -43,3 +43,8 @@ Assigna els valors dels camps a partir de les dades de l'entrada.
     C/Callejon, 4, 3a
     01234 - Madrid
     Madrid
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

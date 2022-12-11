@@ -54,3 +54,8 @@ la paraula `NO` si no hi és a la llista.
     1
     luis
     __FI__
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

@@ -82,3 +82,8 @@ Se imprimirá el texto final escrito por el robot.
 **Sample Output 4**
 
     MAIN
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

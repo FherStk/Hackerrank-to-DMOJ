@@ -39,3 +39,8 @@ La nota mitjana
 **Sample Output 2**
 
     7.4666667
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

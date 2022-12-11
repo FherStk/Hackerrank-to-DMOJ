@@ -92,3 +92,8 @@ Si no se ha colado nadie se escribirá .
 **Sample Output 5**
 
     COLA EN ORDEN
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

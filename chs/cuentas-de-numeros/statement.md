@@ -76,3 +76,8 @@ leídos; y separados por un salto de línea.
     4
     2
     1
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

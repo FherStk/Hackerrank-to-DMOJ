@@ -66,3 +66,8 @@ decimals.
 
     25
     4
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

@@ -126,3 +126,8 @@ mina trobada.
     7 1
     7 5
     7 6
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

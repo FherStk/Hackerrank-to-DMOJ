@@ -134,3 +134,8 @@ S'imprimirà el salari total, sense decimals.
 **Sample Output 7**
 
     14400
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

@@ -156,3 +156,8 @@ potes
 **Sample Output 6**
 
     336
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

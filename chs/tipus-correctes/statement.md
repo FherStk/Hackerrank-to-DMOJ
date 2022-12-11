@@ -20,3 +20,8 @@ variable.
     37.5
     false
     ;
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

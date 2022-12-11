@@ -170,3 +170,8 @@ Un entero indicando la cantidad de semáforos necesaria
 ``` 
 4
 ```
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

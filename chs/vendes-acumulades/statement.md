@@ -72,3 +72,8 @@ S'imprimiran les vendes en format Array: `[0, 0, 0, 0]`
 **Sample Output 4**
 
     [0, 0, 0, 0, 0, 0]
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

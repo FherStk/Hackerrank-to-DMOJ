@@ -111,3 +111,8 @@ Implementa els mètodes (funcions) de la classe FunctionGame
     8,8,9 -> 8
     7,9,7 -> 7
     10,10,10 -> 10
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

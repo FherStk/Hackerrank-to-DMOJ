@@ -169,3 +169,8 @@ Se imprimirá el lienzo resultante conforme los casos de prueba.
     + - +   + - +   + - +
     . . |   | . |   | . .
     . . + - + . + - + . .
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

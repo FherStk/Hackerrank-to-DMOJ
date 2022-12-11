@@ -42,3 +42,8 @@ un enter
 **Sample Output 2**
 
     true
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)

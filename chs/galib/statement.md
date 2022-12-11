@@ -67,3 +67,8 @@ Si el vehicle **no xoca** amb cap pont, no s'ha d'imprimir res.
     
     40
     4 3 4 3 4 3 4 4 4 3 4 3 4 3 4 3 4 3 4 3 3 3 4 3 4 3 4 3 4 3 3 4 3 4 3 4 4 3 4 4
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
