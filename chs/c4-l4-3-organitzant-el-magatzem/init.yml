@@ -1,5 +1,5 @@
 archive: c4-l4-3-organitzant-el-magatzem-testcases.zip
-binary_data: true
+hints: [unicode]
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

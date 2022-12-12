@@ -1,5 +1,5 @@
 archive: cb3c8-el-conill-i-la-pastanaga-testcases.zip
-binary_data: true
+hints: [unicode]
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt
