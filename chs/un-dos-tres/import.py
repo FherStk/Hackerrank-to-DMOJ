@@ -3,7 +3,7 @@ from django.utils import timezone
 from django.contrib.auth.models import User
 from judge.models import Problem, Judge
 
-p = Problem.objects.get(id=1)
+p = Problem.objects.get(id=3)
 p.pk = None
 p.code="un-dos-tres"
 p.name="[C2-L2-6] Three card poker #if"

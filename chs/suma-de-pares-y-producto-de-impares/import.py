@@ -3,7 +3,7 @@ from django.utils import timezone
 from django.contrib.auth.models import User
 from judge.models import Problem, Judge
 
-p = Problem.objects.get(id=1)
+p = Problem.objects.get(id=3)
 p.pk = None
 p.code="suma-de-pares-y-prod"
 p.name="[b28ef] Suma de parells i producte d'imparells"

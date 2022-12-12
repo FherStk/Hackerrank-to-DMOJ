@@ -3,7 +3,7 @@ from django.utils import timezone
 from django.contrib.auth.models import User
 from judge.models import Problem, Judge
 
-p = Problem.objects.get(id=1)
+p = Problem.objects.get(id=3)
 p.pk = None
 p.code="c1-l3-5-data-de-part"
 p.name="[f13d9] Data de caducitat #operadors"
