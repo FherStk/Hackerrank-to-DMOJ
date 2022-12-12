@@ -74,6 +74,7 @@ def pythonFiles():
 		os.system(f"touch {output}")
 		os.system(f"echo '' > {output}")
 
+		#TODO: missing creators and curator
 		os.system(f"""cat <<EOT >> {output}
 from django.utils import timezone
 from django.contrib.auth.models import User
