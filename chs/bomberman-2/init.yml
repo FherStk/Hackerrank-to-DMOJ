@@ -1,4 +1,5 @@
 archive: bomberman-2-testcases.zip
+binary_data: true
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt

@@ -41,6 +41,7 @@ def yamlFiles():
 				output = os.path.join(problem, "init.yml")
 				os.system(f"touch {output}")
 				os.system(f"echo 'archive: {file}' > {output}")
+				os.system(f"echo 'binary_data: true' >> {output}")
 				os.system(f"echo 'test_cases:' >> {output}")
 
 				#counting the cases
