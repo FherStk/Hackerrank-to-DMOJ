@@ -5,8 +5,8 @@ PROBLEMS_DIR = "chs"
 PROBLEMS_TEMPLATE_ID = 1
 
 def main():
-	#html2md()
-	#yamlFiles()
+	html2md()
+	yamlFiles()
 	pythonFiles()
 
 def html2md():
