@@ -15,7 +15,7 @@ def copyTest():
 		os.system(f"mkdir -p {problemDest}")
 
 		for file in os.listdir(problemSource):
-			if file.endswith(".zip") or file.endswith(".yaml"):
+			if file.endswith(".zip") or file.endswith(".yml"):
 				os.system(f"cp {os.path.join(problemSource, file)} {os.path.join(problemDest, file)}")
 
 			if file.endswith(".py"):

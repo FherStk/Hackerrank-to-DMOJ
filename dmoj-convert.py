@@ -38,7 +38,7 @@ def yamlFiles():
 				os.system(f"unzip -u {zip} -d {problem}")
 
 				#create the file
-				output = os.path.join(problem, "init.yaml")
+				output = os.path.join(problem, "init.yml")
 				os.system(f"touch {output}")
 				os.system(f"echo 'archive: {file}' > {output}")
 				os.system(f"echo 'test_cases:' >> {output}")
