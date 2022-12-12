@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c4-l3-1-inventari-en-ordre"
+p.code="c4-l3-1-inventari-en"
 p.name="[cfff1] Inventari en ordre"
 p.summary="Inventari en ordre"
 p.description='''El software d'inventari que tenim a la xarxa obté diversa informació
@@ -160,7 +160,12 @@ mirar cap més camp d'ordenació.
     192.168.127.127 8 2000 500
     192.168.10.8    4 2000 500
     192.168.35.64   4 2000 500
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

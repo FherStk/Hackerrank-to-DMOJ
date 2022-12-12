@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="tabla-de-multiplicar-2"
+p.code="tabla-de-multiplicar"
 p.name="[C3-L2-4] Taula de multiplicar entre dos nombres #for"
 p.summary="Taula de multiplicar entre dos nombres"
 p.description='''Mostra la taula de multiplicar entre dos nombres donats
@@ -189,7 +189,12 @@ Cada operació s'escriurà amb el següent format:
     10 x 8 = 80
     10 x 9 = 90
     10 x 10 = 100
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

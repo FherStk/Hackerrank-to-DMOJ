@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c2-l1-4-operacions-aritmetiques"
+p.code="c2-l1-4-operacions-a"
 p.name="[C2-L1-4] Expressions aritmètiques #if"
 p.summary="Expressions aritmètiques"
 p.description='''Implementa un intèrpret d'expressions aritmètiques.
@@ -98,7 +98,12 @@ El resultat de la operació (float), o els missatges  i  en el seu cas.
 **Sample Output 7**
 
     Error: division by zero
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="suma-de-pares-y-producto-de-impares"
+p.code="suma-de-pares-y-prod"
 p.name="[b28ef] Suma de parells i producte d'imparells"
 p.summary="Suma de parells i producte d'imparells"
 p.description='''Escriu un programa que llegeixi una seqüència de números enters
@@ -55,7 +55,12 @@ números llegits (sense comptar el -1).
     14
     441
     8
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

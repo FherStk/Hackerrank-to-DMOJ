@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c7-l3-2-evaluate-expression"
+p.code="c7-l3-2-evaluate-exp"
 p.name="[C7-L3-2] Evaluate expression #recursivitat"
 p.summary="Evaluate expression #recursivitat"
 p.description='''Donat un String amb una expressió aritmètica de sumes i multiplicacions,
@@ -103,7 +103,12 @@ El resultat de l'expressió
 **Sample Output 9**
 
     512919
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

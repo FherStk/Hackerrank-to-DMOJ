@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="hora-dapertura-operadors-ternari"
+p.code="hora-dapertura-opera"
 p.name="Hora d'apertura  #operadors #ternari"
 p.summary="Hora d'apertura  #operadors #ternari"
 p.description='''Un local té horaris d'apertura diferents entre setmana i el cap de
@@ -80,7 +80,12 @@ L'entrada és un dia de la setmana.
 **Sample Output 6**
 
     10:00
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

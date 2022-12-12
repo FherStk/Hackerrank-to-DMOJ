@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c2-l2-6-joc-de-pistes"
+p.code="c2-l2-6-joc-de-piste"
 p.name="[C5-L2-6] Joc de pistes"
 p.summary="Joc de pistes"
 p.description='''A les colònies de final de curs, una nit s'organitza un joc de pistes.
@@ -110,7 +110,12 @@ al premi.
     No, no @3
     Mmmmmm @4
     PREMI
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

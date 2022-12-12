@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c2-l1-5-trendingtopic"
+p.code="c2-l1-5-trendingtopi"
 p.name="[C5-L4-3] #TrendingTopic #strings"
 p.summary="#TrendingTopic"
 p.description='''Una forma de veure la popularitat dels llenguatges de programació, es
@@ -277,7 +277,12 @@ missatges
     #python 10
     #csharp 8
     #human 1
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

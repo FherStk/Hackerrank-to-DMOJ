@@ -78,7 +78,12 @@ leídos; y separados por un salto de línea.
     4
     2
     1
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

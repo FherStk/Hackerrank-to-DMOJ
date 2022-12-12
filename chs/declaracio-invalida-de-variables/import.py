@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="declaracio-invalida-de-variables"
+p.code="declaracio-invalida-"
 p.name="Declaració invàlida de variables  #variables"
 p.summary="Declaració invàlida de variables"
 p.description='''Donades dues variables  i  amb declaracions invàlides, afegeix el
@@ -26,7 +26,12 @@ tipus correcte.
 **Sample Output 0**
 
     3943574
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

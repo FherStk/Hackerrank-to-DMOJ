@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c5-l2-5-hansel-i-gretel"
+p.code="c5-l2-5-hansel-i-gre"
 p.name="[C5-L2-5] Hansel i Gretel"
 p.summary="Hansel i Gretel"
 p.description='''Hänsel i Gretel són dos germans d'una família de llenyataires molt
@@ -406,7 +406,12 @@ Gretel recuperant les engrunes de pa.
     #H       #
     #        #
     ##########
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

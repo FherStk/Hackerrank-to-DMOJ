@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c4-l0-1-altura-minima"
+p.code="c4-l0-1-altura-minim"
 p.name="[b4322] Altura mínima #arrays"
 p.summary="Altura mínima"
 p.description='''![image](1573811284-7756e2e813-Untitleddrawing1.png)
@@ -104,7 +104,12 @@ S'imprimirà  o  en una línia, per a cadascun dels nens i nenes
     NO
     SI
     NO
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

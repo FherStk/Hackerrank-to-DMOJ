@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c7-l2-1-successio-de-fibonacci"
+p.code="c7-l2-1-successio-de"
 p.name="[C7-L2-1] Successió de Fibonacci #recursivitat"
 p.summary="Successió de Fibonacci"
 p.description='''Escriu un algoritme recursiu que trobi el nombre en la posició N de la
@@ -110,7 +110,12 @@ El número de la successió de Fibonacci que ocupa la posició N
 **Sample Output 10**
 
     75025
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="afe43-amaga-les-columnes"
+p.code="afe43-amaga-les-colu"
 p.name="[afe43] Amaga les columnes"
 p.summary="Amaga les columnes"
 p.description='''![image](1579623863-f2d38217d1-excel.png)
@@ -107,7 +107,12 @@ camps de la taula han d'ocupar **10 espais i aliniats a l'esquerra**
     Campo32   
     Campo42   
     Campo52
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="d1e2a-contact-class-l0"
+p.code="d1e2a-contact-class-"
 p.name="[d1e2a] Contact #class #L0"
 p.summary="Contact"
 p.description='''Assigna els valors dels camps a partir de les dades de l'entrada.
@@ -53,7 +53,12 @@ p.description='''Assigna els valors dels camps a partir de les dades de l'entrad
     C/Callejon, 4, 3a
     01234 - Madrid
     Madrid
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

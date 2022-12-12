@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c4-l2-4-balanceig-de-carrega"
+p.code="c4-l2-4-balanceig-de"
 p.name="[ca7df] Balanceig de càrrega"
 p.summary="Balanceig de càrrega"
 p.description='''El balanceig de càrrega consisteix en la distribució de la feina a
@@ -148,7 +148,12 @@ El bloc de tamany **5** s'escriu al tercer disc:
 **Sample Output 4**
 
     407 423 425 435 411 485 420 415
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

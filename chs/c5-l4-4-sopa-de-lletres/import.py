@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c5-l4-4-sopa-de-lletres"
+p.code="c5-l4-4-sopa-de-llet"
 p.name="[C5-L4-4] Sopa de lletres #strings"
 p.summary="Sopa de lletres"
 p.description='''Pedro Ocón de Oro, va inventar la sopa de lletres. Les paraules poden
@@ -183,7 +183,12 @@ estar més d'una vegada)
     E j u D u h k l b B R E A K
     j I M P O R T e E L S E S e
     F A L S E B O O L E A N S a
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

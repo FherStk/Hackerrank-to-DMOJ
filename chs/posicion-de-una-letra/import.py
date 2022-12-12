@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="posicion-de-una-letra"
+p.code="posicion-de-una-letr"
 p.name="[bf99e] Posició d'una lletra en un text #array"
 p.summary="Posició d'una lletra en un text"
 p.description='''Donat un text i una lletra, troba la posició de la primera ocurrència de
@@ -70,7 +70,12 @@ text, s'imprimirà
 **Sample Output 4**
 
 
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

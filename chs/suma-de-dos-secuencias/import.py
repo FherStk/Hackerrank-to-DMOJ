@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="suma-de-dos-secuencias"
+p.code="suma-de-dos-secuenci"
 p.name="Suma de dos secuencias"
 p.summary="Sumar cada número de una secuencia con su correspondiente de otra secuencia."
 p.description='''Dadas dos secuencias de números, sumar cada número de la primera con su
@@ -60,7 +60,12 @@ La secuencia de números resultante, separados por espacios en blanco
 **Sample Output 3**
 
 
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

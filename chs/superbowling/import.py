@@ -161,7 +161,12 @@ Con 4 bolos el triángulo queda incompleto:
 **Sample Output 11**
 
     false
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

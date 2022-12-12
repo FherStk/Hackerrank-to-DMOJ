@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c6a99-cromos-repetits"
+p.code="c6a99-cromos-repetit"
 p.name="[c6a99] Cromos repetits"
 p.summary="Cromos repetits"
 p.description='''![image](1580224281-7dc0beb855-Mounstruos-Diablicos-2.jpg)
@@ -126,7 +126,12 @@ No té cap cromo repetit
     64: 2
     66: 3
     68: 2
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

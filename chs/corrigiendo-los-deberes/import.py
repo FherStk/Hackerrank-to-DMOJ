@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="corrigiendo-los-deberes"
+p.code="corrigiendo-los-debe"
 p.name="[C3-L1-9] Corregint els deures #for"
 p.summary="Corregint els deures"
 p.description='''A un alumne li han manat de deures fer un munt de divisions. Quan les ha
@@ -142,7 +142,12 @@ residuo **0**.
     4) 0 0
     5) 0 3
     6) 0 1
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

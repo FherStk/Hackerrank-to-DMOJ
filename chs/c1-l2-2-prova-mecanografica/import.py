@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c1-l2-2-prova-mecanografica"
+p.code="c1-l2-2-prova-mecano"
 p.name="[e9ac5] Prova mecanogràfica  #conversio"
 p.summary="Prova mecanogràfica"
 p.description='''En les proves de mecanografia es demana teclejar un text i es medeix la
@@ -131,7 +131,12 @@ Velocitat: **72** PPM
 
     0
     12
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

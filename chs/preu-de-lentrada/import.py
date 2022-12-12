@@ -198,7 +198,12 @@ Descompte del 15% per tenir 65 anys i del 25% per ser dimecres.
 **Sample Output 11**
 
     4.50
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

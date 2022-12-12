@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="e8f27-fusion-class-l0"
+p.code="e8f27-fusion-class-l"
 p.name="[e8f27] Fusion #class #L0"
 p.summary="Fusion"
 p.description='''Crea el mètode Fusion.fusionar()
@@ -30,7 +30,12 @@ p.description='''Crea el mètode Fusion.fusionar()
     Trunks: fuerza=70, velocidad=90
     Gotenks: fuerza=150, velocidad=190
     Gogeta: fuerza=190, velocidad=190
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

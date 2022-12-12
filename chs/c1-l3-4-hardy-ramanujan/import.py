@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c1-l3-4-hardy-ramanujan"
+p.code="c1-l3-4-hardy-ramanu"
 p.name="[d59ab] Hardy-Ramanujan #operadors"
 p.summary="Hardy-Ramanujan"
 p.description='''Desde que va llegir sobre el matemàtic Ramanujan, busca el nombre 1729
@@ -118,7 +118,12 @@ si no ho és
 **Sample Output 10**
 
     false
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

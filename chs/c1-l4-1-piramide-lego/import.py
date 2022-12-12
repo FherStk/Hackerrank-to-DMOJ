@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c1-l4-1-piramide-lego"
+p.code="c1-l4-1-piramide-leg"
 p.name="[e1070] Piràmide lego #operadors"
 p.summary="Piràmide lego"
 p.description='''Amb peces de lego de 4x4 pots construir piràmides com aquesta de 3
@@ -111,7 +111,12 @@ El nombre de peces necessàries
 **Sample Output 8**
 
     333333833333500000
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

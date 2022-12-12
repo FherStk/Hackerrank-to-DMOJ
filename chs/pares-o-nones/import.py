@@ -61,7 +61,12 @@ S'imprimirà el jugador que guanya:  |
 **Sample Output 3**
 
     segon jugador
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

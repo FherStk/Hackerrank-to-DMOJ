@@ -76,7 +76,12 @@ Se li ha realitzat manteniment 2 dies, durant 4 hores en total
 
     1
     10
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

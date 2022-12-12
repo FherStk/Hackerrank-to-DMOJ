@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c4-l0-0-mitjana-de-vendes"
+p.code="c4-l0-0-mitjana-de-v"
 p.name="[fa865] Mitjana de vendes"
 p.summary="Mitjana de vendes"
 p.description='''![image](1573833383-b2e04b415c-Screenshot_2019-11-15Screenshot1.png)
@@ -244,7 +244,12 @@ La propietat  de l'últim DIV correspon a la mitjana anual per mesos.
 **Explanation 4**
 
 ![image](1573834469-27a011b8ea-Screenshot_2019-11-15Screenshot6.png)
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

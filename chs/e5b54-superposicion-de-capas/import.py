@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="e5b54-superposicion-de-capas"
+p.code="e5b54-superposicion-"
 p.name="[e5b54] Superposición de capas #array"
 p.summary="Superposición de capas"
 p.description='''Los programas de edición de imágenes suelen tener soporte para capas. De
@@ -173,7 +173,12 @@ a las dos capas.
     1 1 1 1 1 
     2 1 1 2 2 
     3 2 3 3 3
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c3-l0-5-compta-vocals"
+p.code="c3-l0-5-compta-vocal"
 p.name="[e31b2] Filtra vocals #for"
 p.summary="Filtra vocals"
 p.description='''Donada una llista de lletres, imprimeix únicament les vocals que hi
@@ -111,7 +111,12 @@ S'imprimirà cada vocal en una línia
 
     u
     i
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

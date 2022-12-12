@@ -215,7 +215,12 @@ El nombre de colors distints que es veuran.
 **Explanation 12**
 
 ![image](1556403552-f7e09bb5b1-rgb13.png)
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c2-l0-3-calculadora-amb-menu"
+p.code="c2-l0-3-calculadora-"
 p.name="[d71d4] Calculadora amb menú #if #switch"
 p.summary="Calculadora amb menú"
 p.description='''Realitza un programa que soliciti dos nombres i mostri per pantalla el
@@ -162,7 +162,12 @@ S'imprimirà el resultat de l'operació
     4.-DIVIDIR
     Esculli una opcio:
     2343168
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="ea92e-shopping-cart-class-l0"
+p.code="ea92e-shopping-cart-"
 p.name="[ea92e] Shopping Cart #class #L0"
 p.summary="Shopping Cart"
 p.description='''Crea les classes necessàries.
@@ -55,7 +55,12 @@ p.description='''Crea les classes necessàries.
     ShoppingCart
                LILLHULT MiniUSB cable, 0.4 m    2.25
             LILLHULT USB tipo C cable, 1.5 m    4.45
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

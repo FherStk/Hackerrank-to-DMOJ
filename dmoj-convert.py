@@ -6,8 +6,8 @@ PROBLEMS_TEMPLATE_ID = 1
 
 def main():
 	#html2md()
-	yamlFiles()
-	#pythonFiles()
+	#yamlFiles()
+	pythonFiles()
 
 def html2md():
 	for folder in os.listdir(PROBLEMS_DIR):
@@ -67,7 +67,7 @@ def pythonFiles():
 
 			if file.endswith(".md"):
 				with open(os.path.join(problem, file), 'r') as f:
-					descrioption = f.read()
+					description = f.read()
 					
 		#create the file
 		output = os.path.join(problem, "import.py")
@@ -84,8 +84,8 @@ p.pk = None
 p.code="{data['model']['slug'][0:20]}"
 p.name="{data['model']['name']}"
 p.summary="{data['model']['preview']}"
-p.description='''{descrioption}'''
-p.is_public=True
+p.description='''{description}'''
+p.is_public=False
 p.date=timezone.now()
 p.save()
 """)

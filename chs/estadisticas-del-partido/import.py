@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="estadisticas-del-partido"
+p.code="estadisticas-del-par"
 p.name="Estadísticas del partido"
 p.summary="Hace una análisis de las estadísticas en función de la evolución del marcador de un partido de fútbol."
 p.description='''En un partido de fútbol el marcador normalmente se expresa de la
@@ -136,7 +136,12 @@ FINAL DEL PARTIDO, GANA VISITANTE: 2 3
 
     EMPIEZA EL PARTIDO, EMPATE: 0 0
     FINAL DEL PARTIDO, EMPATE: 0 0
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

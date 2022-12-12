@@ -103,7 +103,12 @@ resultant dels enemics, separats per espais.
     100 90 80 90 100
     90 80 70 80 90
     80 70 60 70 80
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

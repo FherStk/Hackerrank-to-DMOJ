@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c4-l4-3-organitzant-el-magatzem"
+p.code="c4-l4-3-organitzant-"
 p.name="[C4-L4-3] Organitzant el magatzem #arrays"
 p.summary="Organitzant el magatzem"
 p.description='''Una empresa de logística té desitja revisar la política de col·locació
@@ -244,7 +244,12 @@ buits del magatzem s'indiquen amb un punt.
     llljzz.sl.
     ...j.zz.l.
     ..jj....ll
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

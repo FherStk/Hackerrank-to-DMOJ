@@ -43,7 +43,12 @@ p.description='''Crea els objectes necessaris.
 
     P1:gcd #17900 {10, 10}
     P2:mcm #8000 {14, 3}
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

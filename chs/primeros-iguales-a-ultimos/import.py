@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="primeros-iguales-a-ultimos"
+p.code="primeros-iguales-a-u"
 p.name="Primeros iguales a últimos"
 p.summary="Para cada caso de prueba, decir si el primer número leído es igual al último."
 p.description='''Para cada caso de prueba, se deben ir leyendo números hasta que se lea
@@ -106,7 +106,12 @@ linea "\n"
 
     NO
     NO
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

@@ -132,7 +132,12 @@ Se imprimirá el tablero resultante tras tras colocar (o no) la pieza.
     0 0 0
     0 1 1
     1 1 1
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

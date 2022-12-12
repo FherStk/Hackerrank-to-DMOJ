@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="graficos-de-calificaciones"
+p.code="graficos-de-califica"
 p.name="[C3-L1-11] Gràfics de qualificacions #for"
 p.summary="Gràfics de qualificacions"
 p.description='''Donades les notes que han tret els alumnes en una matèria, genera un
@@ -115,7 +115,12 @@ Un alumne ha obtingut Insuficient
     B:
     S:
     I:
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

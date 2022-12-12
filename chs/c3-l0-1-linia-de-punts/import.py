@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c3-l0-1-linia-de-punts"
+p.code="c3-l0-1-linia-de-pun"
 p.name="[b9c97] Línia de punts #for"
 p.summary="Línia de punts"
 p.description='''Pinta una línia amb la quantitat de punts indicada.
@@ -69,7 +69,12 @@ Un nombre enter .
 **Sample Output 5**
 
     .....................................................................................................................................................................................................................................
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="sucesiones-de-fibonacci"
+p.code="sucesiones-de-fibona"
 p.name="[C3-L2-2] Successions de Fibonacci #for"
 p.summary="Successions de Fibonacci"
 p.description='''La successió de Fibonacci comença amb els nombres 0 i 1, i a partir
@@ -77,7 +77,12 @@ Un "SI" o un "NO" per cada seqüència; separats per un salt de línia.
     NO
     NO
     SI
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

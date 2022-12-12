@@ -93,7 +93,12 @@ La seqüència resultant.
 **Sample Output 6**
 
     76 99 65 88 98 77 45 32 21
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

@@ -119,7 +119,12 @@ p.description='''Implementa els mètodes GearBox.gearUp() i GearBox.gearDown()
     Current gear: R
     Current gear: R
     Current gear: R
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c3-l2-7-descompressio-rle"
+p.code="c3-l2-7-descompressi"
 p.name="[C3-L2-7] Descompressió RLE #for"
 p.summary="Descompressió RLE"
 p.description='''La codificació Run-length encoding (RLE) és una forma molt simple de
@@ -81,7 +81,12 @@ La cadena descomprimida
 **Sample Output 5**
 
     JAVA
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

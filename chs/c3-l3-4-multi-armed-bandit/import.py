@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c3-l3-4-multi-armed-bandit"
+p.code="c3-l3-4-multi-armed-"
 p.name="[a144f] Multi-armed bandit"
 p.summary="Multi-armed bandit"
 p.description='''En la teoria de la probabilitat, el problema dels bandits de múltiples
@@ -246,7 +246,12 @@ Es mostra el primer i es fa clic (true)
 **Sample Output 4**
 
     [16.666668, 19.081633, 17.647058]
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

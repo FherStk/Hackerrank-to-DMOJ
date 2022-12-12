@@ -216,7 +216,12 @@ Per últim caldrà indicar el número de tuples retornades per la consulta:
     Kay    |Alan   |Programacio basica|10.00
     Liskov |Barbara|Programacio basica|10.00
     (7 rows)
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

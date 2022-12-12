@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c2-l3-1-xarxes-privades"
+p.code="c2-l3-1-xarxes-priva"
 p.name="[C2-L4-2] Xarxes privades #if"
 p.summary="Xarxes privades"
 p.description='''A l'arquitectura d'adreçament d'Internet, una xarxa privada és una xarxa
@@ -169,7 +169,12 @@ s'indicarà si és una adreça pública o privada.
     First IP: 235.84.32.0
     Last IP: 235.84.63.255
     Public
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

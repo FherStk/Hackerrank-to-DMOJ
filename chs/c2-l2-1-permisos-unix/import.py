@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c2-l2-1-permisos-unix"
+p.code="c2-l2-1-permisos-uni"
 p.name="[C2-L4-3] Permisos octals UNIX #if"
 p.summary="Permisos octals UNIX"
 p.description='''Donats els permisos d'un fitxer en format octal, tradueix-los a format
@@ -235,7 +235,12 @@ S'imprimiran els permisos en format caràcter.
 **Sample Output 20**
 
     rwsrwsrwt
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

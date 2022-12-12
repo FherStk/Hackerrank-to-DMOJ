@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c2-l1-2-lletres-scrabble"
+p.code="c2-l1-2-lletres-scra"
 p.name="[e3ecf] Lletres de l'Scrabble #if #switch"
 p.summary="Lletres de l'Scrabble"
 p.description='''![image](1571218848-eddd5026fa-captionit9103701852B81.jpg)
@@ -240,7 +240,12 @@ La puntuació de la lletra
 **Sample Output 25**
 
 
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

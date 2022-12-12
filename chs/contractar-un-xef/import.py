@@ -84,7 +84,12 @@ L'entrada consta de 5 línies:
 **Sample Output 3**
 
     El formulari de Josep Antoni s'ha completat. Et contactarem si necessitem un xef de cuina nouvelle cuisine.
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

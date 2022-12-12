@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="numero-de-incrementos"
+p.code="numero-de-incremento"
 p.name="Número de incrementos"
 p.summary="Calcula las veces que se ha incrementado un número."
 p.description='''Dada una secuencia de números, calcula las veces que ha habido un
@@ -86,7 +86,12 @@ No se ha producido ningún incremento.
 **Sample Output 5**
 
 
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

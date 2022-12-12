@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c1-l2-3-rellotge-de-manilles"
+p.code="c1-l2-3-rellotge-de-"
 p.name="[cb246] Rellotge de manilles #operadors"
 p.summary="Rellotge de manilles"
 p.description='''En un rellotge les manilles avancen una mica a cada segon. La manilla
@@ -106,7 +106,12 @@ manilla dels segons està a 0º
     195.25
     183.0
     180.0
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

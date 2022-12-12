@@ -39,7 +39,12 @@ p.description='''Implementa el constructor de la classe Post.
     | Global warming is a HOAX         |
     | <3 200            & 1000         |
     ------------------------------------
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

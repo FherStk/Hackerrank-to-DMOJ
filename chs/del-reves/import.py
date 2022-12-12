@@ -60,7 +60,12 @@ La seqüència de números en ordre invers, separats per espais.
 **Sample Output 3**
 
     9 6 7 4 5 6 2 4 1 3
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

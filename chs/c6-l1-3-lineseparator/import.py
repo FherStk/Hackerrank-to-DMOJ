@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c6-l1-3-lineseparator"
+p.code="c6-l1-3-lineseparato"
 p.name="[c71c4] LineSeparator #class #L0"
 p.summary="LineSeparator"
 p.description='''Completa el mètode main():
@@ -50,7 +50,12 @@ p.description='''Completa el mètode main():
     --------------------
     Aqui sota hi surt una line de 30 guions
     ------------------------------
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

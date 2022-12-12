@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="dos-secuencias-iguales"
+p.code="dos-secuencias-igual"
 p.name="[d45eb] Dues seqüències iguals #arrays"
 p.summary="Dues seqüències iguals"
 p.description='''Donades dues seqüències de nombres, dir si són iguals.
@@ -80,7 +80,12 @@ si les seqüències no són iguals
 **Sample Output 5**
 
     false
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

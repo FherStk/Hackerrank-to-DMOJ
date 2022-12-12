@@ -69,7 +69,12 @@ La entrada consiste en las respuestas del usuario: 30 letras (, ,
 **Sample Output 2**
 
 
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

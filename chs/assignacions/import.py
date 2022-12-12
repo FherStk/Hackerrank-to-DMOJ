@@ -29,7 +29,12 @@ Per fer-ho, assigna correctament els valors a les variables.
 **Sample Output 0**
 
     3 5 4
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

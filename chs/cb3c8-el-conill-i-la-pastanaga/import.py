@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="cb3c8-el-conill-i-la-pastanaga"
+p.code="cb3c8-el-conill-i-la"
 p.name="[cb3c8] El conill i les pastanagues"
 p.summary="El conill i la pastanaga"
 p.description='''![image](1579687293-784052e851-conillipastanaga3.png)
@@ -124,7 +124,12 @@ menjar-se totes les pastanagues en l'ordre correcte.
 **Sample Output 5**
 
     104
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

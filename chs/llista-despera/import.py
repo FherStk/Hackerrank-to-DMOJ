@@ -78,7 +78,12 @@ elegit el mateix centre, separant els números amb espais en blanc.
 **Sample Output 4**
 
     0 1 2 3 4 5 6 7 8 0
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

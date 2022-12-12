@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="aafec-orden-en-la-cola"
+p.code="aafec-orden-en-la-co"
 p.name="[aafec] Orden en la cola #arrays"
 p.summary="Orden en la cola"
 p.description='''![image](1584006124-8ae74ce392-cola.png)
@@ -102,7 +102,12 @@ Si no se ha colado nadie se escribirá .
 **Sample Output 5**
 
     COLA EN ORDEN
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

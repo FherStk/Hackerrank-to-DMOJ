@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c2-l1-5-tres-en-ratlla"
+p.code="c2-l1-5-tres-en-ratl"
 p.name="[C2-L2-1] Tres en ratlla #if"
 p.summary="Tres en ratlla"
 p.description='''Donat un tauler de tres en ratlla, determina el guanyador, o si hi ha
@@ -116,7 +116,12 @@ Jugador1 | Jugador2 | Empat
 **Sample Output 8**
 
     Empat
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

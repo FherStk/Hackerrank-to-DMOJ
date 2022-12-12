@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="d3da3-paper-rock-scissors-class-l0"
+p.code="d3da3-paper-rock-sci"
 p.name="[d3da3] Paper, rock, scissors #class #L0"
 p.summary="Paper, rock, scissors"
 p.description='''Implementa les classes Game i Player
@@ -45,7 +45,12 @@ p.description='''Implementa les classes Game i Player
 **Sample Output 2**
 
     PLAYER 1 WINS
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

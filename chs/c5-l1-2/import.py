@@ -78,7 +78,12 @@ a paràmetre la posició d'un led, i inverteix el seu estat.
     ( )(*)( )(*)( )
     ( )( )( )(*)( )
     ( )( )( )( )( )
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

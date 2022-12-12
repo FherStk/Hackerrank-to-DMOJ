@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="cada-paraula-a-una-linia"
+p.code="cada-paraula-a-una-l"
 p.name="Cada paraula a una línia  #scanner"
 p.summary="Cada paraula a una línia"
 p.description='''Escriu un programa que llegeixi cinc paraules de l'entrada estàndard i
@@ -76,7 +76,12 @@ Cada paraula en una nova línia
     c
     d
     e
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

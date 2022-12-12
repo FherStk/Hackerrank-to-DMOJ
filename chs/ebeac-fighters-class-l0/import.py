@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="ebeac-fighters-class-l0"
+p.code="ebeac-fighters-class"
 p.name="[ebeac] Fighters #class #L0"
 p.summary="Fighters"
 p.description='''Implementa el mètode Fight.winner()
@@ -53,7 +53,12 @@ DOBLE KO.
 **Sample Output 2**
 
     DOUBLE KO
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

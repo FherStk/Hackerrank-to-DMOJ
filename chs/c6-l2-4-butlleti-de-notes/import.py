@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c6-l2-4-butlleti-de-notes"
+p.code="c6-l2-4-butlleti-de-"
 p.name="[c621f] Butlletí de notes"
 p.summary="Butlletí de notes"
 p.description='''Afegeix els camps i mètodes que falten a la classe ReportCard.
@@ -77,7 +77,12 @@ p.description='''Afegeix els camps i mètodes que falten a la classe ReportCard.
 **Sample Output 4**
 
     Average Grade: 7.75
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

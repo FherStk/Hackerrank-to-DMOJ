@@ -88,7 +88,12 @@ S'imprimiràn totes les pàgines ordenades segons el número de pàgina.
     8 La ultima version estable de Java es la 12
     9 La mascota de Java se llama Duke
     10 0.1 + 0.2 != 0.3
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

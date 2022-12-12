@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="picos-maximos-y-minimos"
+p.code="picos-maximos-y-mini"
 p.name="Picos máximos y mínimos"
 p.summary="Dada una secuencia de picos máximos y mínimos, escribir la sucesión de números consecutivos que completan dichos picos."
 p.description='''Dada una secuencia de picos máximos y mínimos, escribir la sucesión de
@@ -62,7 +62,12 @@ números consecutivos, separados por un espacio en blanco.
     10 11 12 13 12 11 10 11 12 13 14
     1000 1001 1002 1003 1004 1005 1004
     20 21 22 23 24 25 26 27 28 29 30
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

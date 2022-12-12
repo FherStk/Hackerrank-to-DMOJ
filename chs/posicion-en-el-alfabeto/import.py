@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="posicion-en-el-alfabeto"
+p.code="posicion-en-el-alfab"
 p.name="[f1dc8] Posició a l'alfabet"
 p.summary="Posició a l'alfabet"
 p.description='''Donat un text, indica la posició que ocupa cada lletra del text a
@@ -107,7 +107,12 @@ La posició de cada lletra en una línia diferent.
     11
     19
     25
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

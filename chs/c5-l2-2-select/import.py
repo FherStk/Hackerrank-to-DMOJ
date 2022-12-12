@@ -131,7 +131,12 @@ S'ha de deixar una separació de 2 salts de línia entre cada resultat.
     ----------------+----------------+--------
     Carl            |Gauss           |   31.90
     John            |Conway          |   29.81
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

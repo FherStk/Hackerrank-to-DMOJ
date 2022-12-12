@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c7-l2-2-reverse-string"
+p.code="c7-l2-2-reverse-stri"
 p.name="[C7-L2-2] Reverse String #recursivitat"
 p.summary="Reverse String"
 p.description='''Donat un String, invirteix-lo.
@@ -45,7 +45,12 @@ El text amb l'ordre dels caracters invertit.
 **Sample Output 2**
 
     gcaatcgattcgatcgc
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

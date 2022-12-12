@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c2-lo-2-preu-del-ferrocarril"
+p.code="c2-lo-2-preu-del-fer"
 p.name="[da218] Preu del ferrocarril #if"
 p.summary="Preu del ferrocarril"
 p.description='''Escriu un programa que determini el preu d'un bolet d'anada i tornada en
@@ -101,7 +101,12 @@ El preu del bolet.
 **Sample Output 8**
 
     82.075
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="tres-iguales-seguidos"
+p.code="tres-iguales-seguido"
 p.name="Tres iguales seguidos"
 p.summary="Decir si hay tres números iguales seguidos."
 p.description='''A partir de una serie de secuencias de números, decir si en cada una de
@@ -37,7 +37,12 @@ salto de línea.
     SI
     NO
     SI
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

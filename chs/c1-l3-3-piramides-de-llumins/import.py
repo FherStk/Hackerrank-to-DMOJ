@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c1-l3-3-piramides-de-llumins"
+p.code="c1-l3-3-piramides-de"
 p.name="[c1124] Piràmides de llumins #operadors"
 p.summary="Llumins"
 p.description='''Al meu oncle li agrada fer figures amb els llumins a les sobretaules,
@@ -134,7 +134,12 @@ El nombre de llumins necessaris per fer la piràmide.
 **Sample Output 10**
 
     1498500
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

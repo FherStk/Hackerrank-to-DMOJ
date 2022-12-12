@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c2-l3-1-permisos-unix"
+p.code="c2-l3-1-permisos-uni"
 p.name="[C2-L3-2] Permisos UNIX #if"
 p.summary="Permisos UNIX"
 p.description='''Els permisos de lecture, escritura i execució sobre fitxers en sistemes
@@ -113,7 +113,12 @@ S'imprimiran els permisos efectius
 **Sample Output 7**
 
     rwx
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

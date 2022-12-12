@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c1-l2-8-notacio-algebraica-als-escacs"
+p.code="c1-l2-8-notacio-alge"
 p.name="[d5dbb] Notació algebraica als escacs  #conversio"
 p.summary="Notació algebraica als escacs"
 p.description='''Les caselles del tauler d'escacs es poden identificar per la seva fila i
@@ -98,7 +98,12 @@ S'imprimirà la posició de la casella en notació algebraica.
 **Sample Output 7**
 
 
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

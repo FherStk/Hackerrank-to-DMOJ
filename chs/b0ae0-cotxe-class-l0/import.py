@@ -65,7 +65,12 @@ p.description='''Implementa el **constructor** de la classe Car
     CHEVROLET CAMARO SS    225  6.00  47.50  0.77 
     SHELBY COBRA GT500     222  6.19  48.70  0.80 
     DODGE CHARGER RT       210  6.44  48.10  0.72
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

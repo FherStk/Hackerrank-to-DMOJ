@@ -230,7 +230,12 @@ on queda la bola, i un guió baix per als gobelets que no la tenen.
 **Sample Output 15**
 
     _ * _
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

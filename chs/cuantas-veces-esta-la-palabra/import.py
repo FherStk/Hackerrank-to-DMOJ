@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="cuantas-veces-esta-la-palabra"
+p.code="cuantas-veces-esta-l"
 p.name="Cuántas veces está la palabra?"
 p.summary="Cuántas veces está la palabra?"
 p.description='''Dada una lista de palabras, imprime la cantidad de veces que aparece la
@@ -80,7 +80,12 @@ entero
 **Sample Output 3**
 
 
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

@@ -117,7 +117,12 @@ El text en llengua l33t
 **Sample Output 6**
 
     !7'5 0\//3R 9000!
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

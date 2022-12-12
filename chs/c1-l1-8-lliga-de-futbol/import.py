@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c1-l1-8-lliga-de-futbol"
+p.code="c1-l1-8-lliga-de-fut"
 p.name="[ff762] Lliga de futbol  #operadors"
 p.summary="Puntuació a la Lliga de futbol"
 p.description='''En la Lliga de futbol un equip rep 3 punts si guanya un partit, 1 punt
@@ -85,7 +85,12 @@ menor
 
 Els dos equips tenen 15 punts, però la diferència de gols de l'equip A
 és major.
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

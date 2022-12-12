@@ -154,7 +154,12 @@ true | false
 **Explanation 9**
 
 ![image](1556195818-3c6bd9959a-escacs8.png)
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

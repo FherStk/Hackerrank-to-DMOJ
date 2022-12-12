@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c1-l2-4-aprovar-el-modul"
+p.code="c1-l2-4-aprovar-el-m"
 p.name="[a116a] Aprovar el mòdul  #operadors"
 p.summary="Aprovar el mòdul"
 p.description='''Per a aprovar el mòdul de programació, un alumne ha d'aprovar les 3
@@ -137,7 +137,12 @@ pràctiques i ha aprovat l'examen, per tant les aprova. Aprova el mòdul.
 **Sample Output 5**
 
     true
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

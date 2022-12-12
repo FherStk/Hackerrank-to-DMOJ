@@ -51,7 +51,12 @@ p.description='''Implementa el mètodes de la classe Triangle:
 
     Area triangle1: 0.00
     Area triangle2: 0.00
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

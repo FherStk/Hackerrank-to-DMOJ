@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c2-l4-1-les-quatre-estacions"
+p.code="c2-l4-1-les-quatre-e"
 p.name="[b3e2c] Les quatre estacions #if"
 p.summary="Les quatre estacions"
 p.description='''Les quatre estacions tradicionals tenen el seu inici i final marcats per
@@ -188,7 +188,12 @@ sud.
 
     Hivern
     Estiu
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c1-l3-2-space-invaders"
+p.code="c1-l3-2-space-invade"
 p.name="[e30d0] Space Invaders #operadors"
 p.summary="Space Invaders"
 p.description='''Es vol implementar un sistema de detecció de col·lisions per al joc
@@ -148,7 +148,12 @@ true | false
 **Sample Output 9**
 
     false
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

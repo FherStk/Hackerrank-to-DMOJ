@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="aac7e-functiongame-class-l0"
+p.code="aac7e-functiongame-c"
 p.name="[aac7e] FunctionGame #class #L0"
 p.summary="FunctionGame"
 p.description='''Implementa els mètodes (funcions) de la classe FunctionGame
@@ -121,7 +121,12 @@ p.description='''Implementa els mètodes (funcions) de la classe FunctionGame
     8,8,9 -> 8
     7,9,7 -> 7
     10,10,10 -> 10
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

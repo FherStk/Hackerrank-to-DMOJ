@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c2-l1-7-saluda-en-diferents-llenguatges"
+p.code="c2-l1-7-saluda-en-di"
 p.name="Saluda en diferents idiomes #if #switch"
 p.summary="Saluda en diferents idiomes"
 p.description='''Fes un programa que faci una salutació en un d'aquests idiomes:
@@ -161,7 +161,12 @@ Si l'idioma no és un de la llista, s'imprimirà la frase , i aleshores s'imprim
 **Sample Output 13**
 
     Buna ziua
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

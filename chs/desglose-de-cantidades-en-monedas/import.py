@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="desglose-de-cantidades-en-monedas"
+p.code="desglose-de-cantidad"
 p.name="[a2ae3] Desglossament en monedes #if"
 p.summary="Desglossament en monedes"
 p.description='''Calculi el desglossament d'una quantitat en monedes, de tal forma que es
@@ -52,7 +52,12 @@ Si solament s'utilitza 1 moneda en el desglossament, s'ha d'imprimir
     4 monedes de 500
     5 monedes de 5
     1 moneda de 1
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

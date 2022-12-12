@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c1-l1-10-comptant-els-minuts-per-cap-dany"
+p.code="c1-l1-10-comptant-el"
 p.name="[c352b] Comptant els minuts per cap d'any  #operadors #aritmetics"
 p.summary="Comptant els minuts per cap d'any"
 p.description='''Ramon es passa el dia de cap d'any mirant el rellotge comptant els
@@ -64,7 +64,12 @@ Queden 1440 minuts (tot el dia)
 **Sample Output 3**
 
     687
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

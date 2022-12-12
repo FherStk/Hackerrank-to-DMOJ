@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c1-l1-6-llums-apagades"
+p.code="c1-l1-6-llums-apagad"
 p.name="[dcbf4] Llums apagats  #operadors #logics"
 p.summary="Llums apagats"
 p.description='''S'està realitzant una aplicació per a controlar els llums d'una casa.
@@ -65,7 +65,12 @@ El primer llum està encés
 **Explanation 2**
 
 L'últim llum està encés
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

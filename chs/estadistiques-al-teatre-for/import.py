@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="estadistiques-al-teatre-for"
+p.code="estadistiques-al-tea"
 p.name="Estadístiques al teatre #for"
 p.summary="Estadístiques al teatre"
 p.description='''El Gran Teatre necessita tenir estadístiques sobre les edats dels
@@ -145,7 +145,12 @@ c = total persones majors de 65
     0-17 : 3
     18-65: 0
     +65  : 18
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

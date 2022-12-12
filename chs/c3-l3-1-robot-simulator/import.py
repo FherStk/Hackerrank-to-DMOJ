@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c3-l3-1-robot-simulator"
+p.code="c3-l3-1-robot-simula"
 p.name="[C3-L3-1] Robot simulator #for"
 p.summary="Robot simulator"
 p.description='''La instal·lació de proves d'una fàbrica de robots necessita un programa
@@ -164,7 +164,12 @@ robot
 
     {141, -36}
     E
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

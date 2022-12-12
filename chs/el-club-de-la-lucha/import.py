@@ -91,7 +91,12 @@ en pie, cada uno en una línea, y con el formato:
 **Sample Output 2**
 
     G: 4
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

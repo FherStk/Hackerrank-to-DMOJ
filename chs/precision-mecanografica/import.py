@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="precision-mecanografica"
+p.code="precision-mecanograf"
 p.name="Precisión mecanográfica"
 p.summary="Describe la precisión mecanográfica a partir del número de caracteres y los errores cometidos."
 p.description='''En unas pruebas de mecanografía se pide teclear un texto y se mide la
@@ -126,7 +126,12 @@ Velocidad: **72** PPM
 
     0
     120
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="d5d1e-creditcard-class-l0"
+p.code="d5d1e-creditcard-cla"
 p.name="[d5d1e] CreditCard #class #L0"
 p.summary="CreditCard "
 p.description='''Crea la classe .
@@ -63,7 +63,12 @@ p.description='''Crea la classe .
     1234 5678 9123 4567 
     Saldo: 9999999.0
     Limit: 0.9
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

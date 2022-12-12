@@ -5,81 +5,160 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="rota-el-vector-en-el-elemento-k"
+p.code="rota-el-vector-en-el"
 p.name="Rota el vector en el elemento k"
 p.summary="Dado un vector de enteros y un elemento k rotar el vector para que el elemento en el la posición k sea el primer elemento del nuevo vector."
-p.description='''Implementa els següents mètodes: - Clock.tick() : augmenta en un segon
-el temps del rellotge - Clock.reset() : posa a 0 el temps del rellotge -
-Clock.getTime() : ha de retornar el temps del rellotge en format
-hh:mm:ss
+p.description='''![image](1556180294-d84162eb53-Untitleddrawing1.png)
+
+Un ticket d'aparcament et permet aparcar durant un temps en funció dels
+diners que hi posis i de la tarifa.
+
+Quan s'imprimeix el ticket, s'indica l'hora d'inici de l'aparcament, i
+l'hora de finalització (calculada a partir dels diners i de la tarifa).
 
 **Input Format**
 
-La entrada consisteix en un seqüencia de números. Un número positiu
-indica la quantitat de ticks que s'han de fer al rellotge. Un zero
-significa 'reset'.
+  - un nombre enter indica l'hora d'inici (hores, minuts i segons),
+
+  - un nombre float indica la quantitat de diners introduits,
+
+  - un nombre float indica la tarifa.
+
+Els diners s'indiquen en Euros.
+
+La tarifa s'indica en Minuts/Euros.
 
 **Constraints**
 
-\-
+Es garanteix que l'hora de finalització mai serà superior a 23:59:59
 
 **Output Format**
 
-S'ha d'imprimir el temps del rellotge en format "hh:mm:ss" després de
-cada número llegit de l'entrada.
+S'imprimirà l'hora de finalització en format H:M:S
 
 **Sample Input 0**
 
-    1 60 3600 0   -1
+    0 0 0
+    60
+    1
 
 **Sample Output 0**
 
-    00:00:01
-    00:01:01
-    01:01:01
-    00:00:00
+    1:0:0
+
+**Explanation 0**
+
+L'hora d'inici és 0:0:0
+
+La tarifa són 60 minuts per euro
+
+S'ha introduit 1 euro
+
+Per tant s'obté una hora d'aparcament
 
 **Sample Input 1**
 
-    1 0 60 0 3600    -1
+    10 0 0
+    30
+    1
 
 **Sample Output 1**
 
-    00:00:01
-    00:00:00
-    00:01:00
-    00:00:00
-    01:00:00
+    10:30:0
+
+**Explanation 1**
+
+L'hora d'inici és 10:0:0 La tarifa són 30 minuts per euro S'ha introduit
+1 euro
+
+Per tant es tenen 30 minuts d'aparcament
 
 **Sample Input 2**
 
-    1 1 1 1 60 60 60 3600 3600   -1
+    10 15 0
+    1
+    0.5
 
 **Sample Output 2**
 
-    00:00:01
-    00:00:02
-    00:00:03
-    00:00:04
-    00:01:04
-    00:02:04
-    00:03:04
-    01:03:04
-    02:03:04
+    10:15:30
+
+**Explanation 2**
+
+La tarifa és 1 minut per euro S'ha introduit 0.5 euros
+
+El temps d'aparcament són 30 segons
 
 **Sample Input 3**
 
-    34 456 23 32435 0 34235    -1
+    16 0 0
+    0.5
+    0.5
 
 **Sample Output 3**
 
-    00:00:34
-    00:08:10
-    00:08:33
-    09:09:08
-    00:00:00
-    09:30:35
+    16:0:15
+
+**Explanation 3**
+
+La tarifa és 0.5 minuts per euro (30 segons per euro) S'han introduït
+0.5 euros El temps són 15 segons
+
+**Sample Input 4**
+
+    16 45 0
+    30
+    1
+
+**Sample Output 4**
+
+    17:15:0
+
+**Sample Input 5**
+
+    16 30 45
+    0.5
+    1
+
+**Sample Output 5**
+
+    16:31:15
+
+**Sample Input 6**
+
+    16 30 45
+    1.5
+    40
+
+**Sample Output 6**
+
+    17:30:45
+
+**Sample Input 7**
+
+    8 30 45
+    30
+    20.75
+
+**Sample Output 7**
+
+    18:53:15
+
+**Sample Input 8**
+
+    6 17 59
+    20.5
+    13.15
+
+**Sample Output 8**
+
+    10:47:33
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

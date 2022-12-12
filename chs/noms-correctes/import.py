@@ -25,7 +25,12 @@ p.description='''Dona el nom que li pertoca a cada variable.
 **Sample Output 0**
 
     Java 15 incorpora Text Blocks, que es delimiten amb """
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

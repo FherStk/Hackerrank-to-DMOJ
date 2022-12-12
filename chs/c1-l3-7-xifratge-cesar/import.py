@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c1-l3-7-xifratge-cesar"
+p.code="c1-l3-7-xifratge-ces"
 p.name="[be233] Xifratge cèsar #operadors"
 p.summary="Xifratge cèsar"
 p.description='''En criptografia, el xifratge Cèsar, és un tipus de xifratge per
@@ -124,7 +124,12 @@ S'escriurà la paraula codificada.
 **Sample Output 7**
 
     byte
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

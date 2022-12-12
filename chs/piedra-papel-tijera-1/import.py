@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="piedra-papel-tijera-1"
+p.code="piedra-papel-tijera-"
 p.name="[f605c] Pedra, Paper, Tisora #for"
 p.summary="Pedra, Paper, Tisora"
 p.description='''![image](1571220517-743a865526-istockphoto-824700882-612x612.jpg)
@@ -187,7 +187,12 @@ JUGADOR1
 **Sample Output 10**
 
 
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

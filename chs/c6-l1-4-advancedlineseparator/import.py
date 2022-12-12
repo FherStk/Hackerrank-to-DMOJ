@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c6-l1-4-advancedlineseparator"
+p.code="c6-l1-4-advancedline"
 p.name="[d85a9] AdvancedLineSeparator #class #L0"
 p.summary="AdvancedLineSeparator"
 p.description='''Completa la classe AdvancedLineSeparator:
@@ -61,7 +61,12 @@ Completa el mètode Solution.main():
     ########################################
     Aqui sota apareix una linea de 50 =
     ==================================================
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

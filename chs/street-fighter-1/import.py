@@ -410,7 +410,12 @@ Aquest event **no** modifica l'estat del personatge.
 **Sample Output 39**
 
     PUNCHING
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

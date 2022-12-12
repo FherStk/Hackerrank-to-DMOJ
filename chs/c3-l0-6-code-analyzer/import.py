@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c3-l0-6-code-analyzer"
+p.code="c3-l0-6-code-analyze"
 p.name="[b6e14] Code analyzer #for"
 p.summary="Code analyzer"
 p.description='''Donat un codi font en llenguatge Java, compta la quantitat de classes
@@ -107,7 +107,12 @@ S'imprimirà la quantitat de classes definides.
 **Sample Output 5**
 
 
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

@@ -69,7 +69,12 @@ Cadascún dels 7 esquirols pren 6 nous, en sobren 6.
 **Sample Output 3**
 
     2899
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

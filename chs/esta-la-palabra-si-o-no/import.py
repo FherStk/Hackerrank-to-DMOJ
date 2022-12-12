@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="esta-la-palabra-si-o-no"
+p.code="esta-la-palabra-si-o"
 p.name="Está la palabra? si o no?"
 p.summary="Está la palabra? si o no?"
 p.description='''Dada una lista de palabras, imprime si se encuentra o no la palabra
@@ -84,7 +84,12 @@ A continuación vienen las  palabras.
 **Sample Output 3**
 
     YES
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

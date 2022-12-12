@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c3-l1-13-quatre-iguals-seguits"
+p.code="c3-l1-13-quatre-igua"
 p.name="[C3-L1-13] Quatre iguals seguits #for"
 p.summary="Quatre iguals seguits"
 p.description='''Donada una seqüència de números, digues quantes vegades apareixen 4
@@ -78,7 +78,12 @@ El número de vegades apareixen 4 números iguals seguits.
 **Sample Output 6**
 
 
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

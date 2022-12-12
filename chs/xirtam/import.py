@@ -63,7 +63,12 @@ S'imprimirà la matriu, separant els números amb espais en blanc.
 **Sample Output 2**
 
     0 0 1 0 0
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

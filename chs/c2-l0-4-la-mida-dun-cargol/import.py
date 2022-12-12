@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c2-l0-4-la-mida-dun-cargol"
+p.code="c2-l0-4-la-mida-dun-"
 p.name="[ba4d0] La mida d'un cargol #if"
 p.summary="La mida d'un cargol"
 p.description='''![image](1576672258-b20fcd32e4-cargol.jpg) Crea un programa que a partir
@@ -133,7 +133,12 @@ La mida del cargol en centímetres (int).
 **Sample Output 12**
 
     mida incorrecta
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

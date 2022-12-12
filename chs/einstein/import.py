@@ -27,7 +27,12 @@ p.description='''Escriu un programa Java que mostri aquesta cita d'Einstein:
 **Sample Output 0**
 
     Life is like riding a bicycle. To keep your balance you must keep moving.
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

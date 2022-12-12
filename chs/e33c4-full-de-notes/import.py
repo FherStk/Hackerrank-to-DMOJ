@@ -60,7 +60,12 @@ S'imprimirà la matriu de notes, afegint la columna de la mitjana.
 
     4 6 5 8 8 6 6.1666665
     4 5 6 9 6 5 5.8333335
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

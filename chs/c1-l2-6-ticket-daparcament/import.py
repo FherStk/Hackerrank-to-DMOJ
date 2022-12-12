@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c1-l2-6-ticket-daparcament"
+p.code="c1-l2-6-ticket-dapar"
 p.name="[b73e8] Ticket d'aparcament  #operadors"
 p.summary="Ticket d'aparcament"
 p.description='''![image](1556180294-d84162eb53-Untitleddrawing1.png)
@@ -153,7 +153,12 @@ La tarifa és 0.5 minuts per euro (30 segons per euro) S'han introduït
 **Sample Output 8**
 
     10:47:33
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

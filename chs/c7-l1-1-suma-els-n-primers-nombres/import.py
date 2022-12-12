@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c7-l1-1-suma-els-n-primers-nombres"
+p.code="c7-l1-1-suma-els-n-p"
 p.name="[C7-L1-1] Suma els n primers nombres #recursivitat"
 p.summary="Suma els n primers nombres"
 p.description='''Escriu un algorisme recursiu per a sumar els n primers nombres.
@@ -65,7 +65,12 @@ La suma
 **Sample Output 4**
 
     500500
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

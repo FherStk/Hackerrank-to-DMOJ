@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="ceros-debajo-de-la-diagonal"
+p.code="ceros-debajo-de-la-d"
 p.name="[C3-L1-4] Zeros sota la diagonal #for"
 p.summary="Zeros sota la diagonal"
 p.description='''![image](1572515447-3bfc4d932d-zerosdiagonal.png)
@@ -194,7 +194,12 @@ A continuació venen els nombres de la matriu.
 **Sample Output 12**
 
 
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

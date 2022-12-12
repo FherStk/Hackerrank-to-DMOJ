@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="ec528-producte-class-l0"
+p.code="ec528-producte-class"
 p.name="[ec528] Producte #class"
 p.summary="Producte "
 p.description='''Assigna els valors als camps de l'objecte  a partir de les
@@ -64,7 +64,12 @@ dades de l'entrada.
     Descripcio: DDR4 3200 PC4-25600 16GB 2x8GB CL16
     Preu:       113.39
     Stock:      55
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

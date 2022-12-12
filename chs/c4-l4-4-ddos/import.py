@@ -176,7 +176,12 @@ i entre la quarta i la setena (0.2+0.6+0.1).
     DDoS alert
     DDoS alert
     DDoS alert
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

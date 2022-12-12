@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="a2e8f-usuari-class-l0"
+p.code="a2e8f-usuari-class-l"
 p.name="[a2e8f] Usuari #class #L0"
 p.summary="Usuari"
 p.description='''Utilitza el mètode constructor de la clase User per a crear i
@@ -26,7 +26,12 @@ inicialitzar els objectes necessaris.
 **Sample Output 0**
 
 
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

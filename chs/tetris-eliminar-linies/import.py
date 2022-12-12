@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="tetris-eliminar-linies"
+p.code="tetris-eliminar-lini"
 p.name="Tetris, eliminar línies #arrays"
 p.summary="Tetris, eliminar línies"
 p.description='''![image](1612523216-fc62f6bda7-1611068668-a4adf963d1-21a.png)
@@ -106,7 +106,12 @@ S'imprimirà el tauler resultant amb el mateix format que a l'entrada.
     1 1 1 1
     1 1 1 1
     1 1 1 1
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

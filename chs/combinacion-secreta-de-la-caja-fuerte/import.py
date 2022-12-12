@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="combinacion-secreta-de-la-caja-fuerte"
+p.code="combinacion-secreta-"
 p.name="[f280a] Combinación secreta de la caja fuerte #for"
 p.summary="Combinación secreta de la caja fuerte"
 p.description='''![image](1584005061-61c2507dc4-Untitleddrawing.png)
@@ -65,7 +65,12 @@ combinación secreta o "CERRADA" en caso contrario.
 **Sample Output 3**
 
     CERRADA
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

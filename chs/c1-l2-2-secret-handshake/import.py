@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c1-l2-2-secret-handshake"
+p.code="c1-l2-2-secret-hands"
 p.name="[C1-L2-2] Secret Handshake #if"
 p.summary="Secret Handshake"
 p.description='''Hi ha 10 tipus de persones al món: *els que entenen el binari i els que
@@ -106,7 +106,12 @@ S'escriurà la seqüència d'events de la "salutació" secreta
     fer l'ullet
     fer l'ullet
     fer l'ullet
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c1-l3-6-just-a-lanella"
+p.code="c1-l3-6-just-a-lanel"
 p.name="[c7e8d] Just a l'anella #operadors"
 p.summary="Just a l'anella"
 p.description='''A la fira hi ha una parada que té una anella penjada. Es tracta de tirar
@@ -149,7 +149,12 @@ en cas contrari
 **Sample Output 9**
 
     false
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="separar-los-grandes-de-los-pequenos"
+p.code="separar-los-grandes-"
 p.name="Separar los grandes de los pequeños"
 p.summary="Separar una secuencia según si los valores son superiores o inferiores a un límite."
 p.description='''Dada un secuencia de números y un valor límite, separar la secuencia en
@@ -84,7 +84,12 @@ Las dos secuencias separadas por un salto de línea.
 
     12 12 13 15 16 17
     18 19 20 18
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

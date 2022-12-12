@@ -182,7 +182,12 @@ Per últim caldrà indicar el número de tuples retornades per la consulta:
     Firefox         |Mozilla         |      0.00
     PostgreSQL      |PGDB            |      0.00
     (15 rows)
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

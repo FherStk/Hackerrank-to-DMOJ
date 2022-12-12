@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="tabla-de-multiplicar-1"
+p.code="tabla-de-multiplicar"
 p.name="Tabla de multiplicar 1"
 p.summary="Escribir un programa que muestre la tabla de multiplicar hasta 10, a partir de un número dado."
 p.description='''Escribir un programa que muestre la tabla de multiplicar hasta 10, a
@@ -174,7 +174,12 @@ Cada operación se escribira con el siguiente formato:
     10 x 8 = 80
     10 x 9 = 90
     10 x 10 = 100
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

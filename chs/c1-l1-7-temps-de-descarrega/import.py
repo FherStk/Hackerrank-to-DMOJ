@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c1-l1-7-temps-de-descarrega"
+p.code="c1-l1-7-temps-de-des"
 p.name="[f2381] Temps de descàrrega  #operadors #aritmetics"
 p.summary="Temps de descàrrega"
 p.description='''![image](1555864526-a951892bed-Sinttulo.png)
@@ -71,7 +71,12 @@ El tamany de l'arxiu és d' 1MB, que són 1024 KB Si la valocitat és de
 **Sample Output 3**
 
     256
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

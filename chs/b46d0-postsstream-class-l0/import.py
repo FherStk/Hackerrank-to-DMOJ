@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="b46d0-postsstream-class-l0"
+p.code="b46d0-postsstream-cl"
 p.name="[b46d0] PostsStream #class #L0"
 p.summary="PostsStream"
 p.description='''Crea els objectes necessaris.
@@ -55,7 +55,12 @@ p.description='''Crea els objectes necessaris.
     @user_two
     Empty message
     ------------------------------
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

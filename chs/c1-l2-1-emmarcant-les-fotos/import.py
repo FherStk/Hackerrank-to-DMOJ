@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c1-l2-1-emmarcant-les-fotos"
+p.code="c1-l2-1-emmarcant-le"
 p.name="[fa08c] Emmarcant les fotos  #operadors"
 p.summary="Emmarcant les fotos"
 p.description='''En Joan té un munt de fotos per a emmarcar, i vol comprar els marcs.
@@ -141,7 +141,12 @@ Tenen la mateixa proporció, però el marc és més petit que la foto:
 **Sample Output 7**
 
     false
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

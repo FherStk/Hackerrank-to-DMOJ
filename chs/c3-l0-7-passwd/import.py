@@ -153,7 +153,12 @@ S'imprimiràn les dades dels usuaris amb el format de la l'arxiu
 **Sample Output 3**
 
     user1001:==:1001:1000:Usuari 1001:/home/user1001:/bin/bash
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

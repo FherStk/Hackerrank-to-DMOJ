@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="separar-los-pares-de-los-impares"
+p.code="separar-los-pares-de"
 p.name="[b7df8] Separar els parells dels imparells #array"
 p.summary="Separar els parells dels imparells"
 p.description='''![image](1574079187-6bb595c935-Untitleddrawing3.png)
@@ -134,7 +134,12 @@ Valor imparell: 1, 3
     
     4 2 6 8 0 4 6 8 0 4 
     3 5 7 1 5 3 5 3 7 1
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

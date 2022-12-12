@@ -126,7 +126,12 @@ La seqüència de nombres generada, separats per un salt de línía.
     37
     45
     34
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

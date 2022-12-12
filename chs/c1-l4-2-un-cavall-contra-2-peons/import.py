@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c1-l4-2-un-cavall-contra-2-peons"
+p.code="c1-l4-2-un-cavall-co"
 p.name="[d87f8] Un cavall contra dos peons #operadors"
 p.summary="Un cavall contra dos peons"
 p.description='''Als escacs el cavall pot saltar fent una "L", així:
@@ -116,7 +116,12 @@ La posició del cavall, i del dos peons
 **Sample Output 6**
 
 
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

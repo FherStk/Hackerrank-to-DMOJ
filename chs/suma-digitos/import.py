@@ -137,7 +137,12 @@ La suma dels dígits de cada nombre, separats per un salt de línia
 **Sample Input 9**
 
 
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

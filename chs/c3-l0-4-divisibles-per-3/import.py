@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c3-l0-4-divisibles-per-3"
+p.code="c3-l0-4-divisibles-p"
 p.name="[d8601] Divisibles per 3 #for"
 p.summary="Divisibles per 3"
 p.description='''Imprimeix tots els nombres enters divisibles per 3 que hi ha entre  i 
@@ -88,7 +88,12 @@ S'imprimirà cada número en una línia.
 
     3
     6
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

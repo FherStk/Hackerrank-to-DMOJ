@@ -68,7 +68,12 @@ p.description='''Implementa el mètode de la classe Equation2D amb la solució a
 
     15.00 * 0.69 * 0.69  + -6.50 * 0.69 + -2.70 = 0
     15.00 * -0.26 * -0.26  + -6.50 * -0.26 + -2.70 = 0
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

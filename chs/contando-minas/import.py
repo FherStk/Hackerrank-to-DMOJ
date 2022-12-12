@@ -212,7 +212,12 @@ Les caselles amb mina es deixaran igual, és a dir, amb un 1.
     0 0 0 1 2 2 1 0 
     1 1 1 1 1 0 1 1 
     1 1 1 1 1 0 1 1
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

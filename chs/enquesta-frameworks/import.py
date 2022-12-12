@@ -92,7 +92,12 @@ S'imprimirà l'enquesta en el format apuntat als casos de prova
     Quin?
     S'ha registrat la resposta: Spring
     Gracies per contestar
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

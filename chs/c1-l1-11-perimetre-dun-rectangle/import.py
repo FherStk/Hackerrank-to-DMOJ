@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c1-l1-11-perimetre-dun-rectangle"
+p.code="c1-l1-11-perimetre-d"
 p.name="[f22f4] Perímetre d'un rectangle  #operadors #aritmetics"
 p.summary="Perímetre d'un rectangle"
 p.description='''El perímetre d'un rectangle és la suma de la longitud de tots els seus
@@ -85,7 +85,12 @@ Un nombre enter indicant el perímetre del rectangle
 **Sample Output 5**
 
 
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

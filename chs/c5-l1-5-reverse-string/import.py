@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c5-l1-5-reverse-string"
+p.code="c5-l1-5-reverse-stri"
 p.name="[C5-L1-5] Reverse String"
 p.summary="Reverse String"
 p.description='''Donat un string, inverteix-lo
@@ -77,7 +77,12 @@ L'string amb els caracters en ordre invers.
 **Sample Output 6**
 
     is this a very long reversed string? yes, it is.
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

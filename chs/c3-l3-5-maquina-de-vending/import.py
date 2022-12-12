@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="c3-l3-5-maquina-de-vending"
+p.code="c3-l3-5-maquina-de-v"
 p.name="[C3-L3-5] Màquina de vending #for"
 p.summary="Màquina de vending"
 p.description='''Es demana implementar una màquina expenedora d'ampolles d'aigua.
@@ -186,7 +186,12 @@ màquina:
     Balance:0.25
     Refund:0.25
     Insert coin
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="contractar-un-programador"
+p.code="contractar-un-progra"
 p.name="Contractar un programador  #operadors"
 p.summary="Contractar un programador"
 p.description='''Una empresa necessita programadors Java i Python. En el procés de
@@ -101,7 +101,12 @@ no coneix el llenguatge...
 **Sample Output 5**
 
     false
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

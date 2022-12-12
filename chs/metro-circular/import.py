@@ -272,7 +272,12 @@ Al final se imprimirá el tiempo total de viaje (en segundos).
     Pacifico
     Arganzuela
     1310
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

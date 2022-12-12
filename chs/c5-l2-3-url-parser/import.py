@@ -108,7 +108,12 @@ segments.
     String[] path = {"downloads", "gnu", "linux"};
     String[] query = {"v=2.21", "dev=true"};
     String fragment = "arch";
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

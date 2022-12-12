@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="e9bed-generador-de-corrent"
+p.code="e9bed-generador-de-c"
 p.name="[e9bed] Generador de corrent #for"
 p.summary="Generador de corrent"
 p.description='''![image](1605034091-4fa49a4cc4-accircuits-acp2.gif) Per a comprovar el
@@ -69,7 +69,12 @@ La primera i la segona medició no són de pujada
 **Sample Output 3**
 
     INCORRECTE
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()

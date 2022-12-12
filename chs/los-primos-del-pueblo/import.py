@@ -5,7 +5,7 @@ from judge.models import Problem, Judge
 
 p = Problem.objects.get(id=1)
 p.pk = None
-p.code="los-primos-del-pueblo"
+p.code="los-primos-del-puebl"
 p.name="Los primos del pueblo"
 p.summary="Decir si la cantidad de números primos en cada secuencia."
 p.description='''Dadas varias secuencias de números, decir la cantidad de números primos
@@ -45,7 +45,12 @@ de línea.
 
     2
     0
+
+----------
+
+** Autoria: **
+[Gerard Falcó](https://github.com/gerardfp)
 '''
-p.is_public=True
+p.is_public=False
 p.date=timezone.now()
 p.save()
