@@ -42,7 +42,7 @@ def yamlFiles():
 				os.system(f"touch {output}")
 				os.system(f"echo 'archive: {file}' > {output}")
 				os.system(f"echo 'hints: [unicode]' >> {output}")
-				os.system(f"echo 'output_prefix_length: 25165824' >> {output}")
+				os.system(f"echo 'output_prefix_length: 1000' >> {output}")
 				os.system(f"echo 'test_cases:' >> {output}")
 
 				#counting the cases

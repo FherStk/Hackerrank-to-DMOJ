@@ -1,6 +1,6 @@
 archive: pangrama-testcases.zip
 hints: [unicode]
-output_prefix_length: 25165824
+output_prefix_length: 1000
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt
