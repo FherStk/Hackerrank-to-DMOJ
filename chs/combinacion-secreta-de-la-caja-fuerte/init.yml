@@ -1,5 +1,6 @@
 archive: combinacion-secreta-de-la-caja-fuerte-testcases.zip
 hints: [unicode]
+output_prefix_length: 25165824
 test_cases:
 - in: input/input00.txt
   out: output/output00.txt
