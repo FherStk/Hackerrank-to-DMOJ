@@ -3,6 +3,7 @@ import json
 
 DMOJ_DIR = "/etc/dmoj"
 PROBLEMS_DIR = "chs"
+TEST = "FAKE"
 
 def main():
 	#fix_code()
