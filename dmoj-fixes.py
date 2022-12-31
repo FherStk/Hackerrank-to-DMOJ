@@ -20,7 +20,9 @@ def fix_problems():
 
 		oldDir = os.path.join(dir, folder)
 		newDir = os.path.join(dir, name)
-		os.system(f"mv {oldDir} {newDir}")
+
+		if oldDir != newDir:
+			os.system(f"mv {oldDir} {newDir}")		
 
 def fix_code():
 	#fix the BBDD
