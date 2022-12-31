@@ -5,24 +5,27 @@ DMOJ_DIR = "/etc/dmoj"
 PROBLEMS_DIR = "chs"
 
 def main():
+	fix_problems()
 	fix_code()
 	fix_prefix()
 	fix_language()
 	fix_author()
-	fix_curators
-		
-def fix_code():
-	#fix the BBDD
-	command = "from django.utils import timezone; from django.contrib.auth.models import User; from judge.models import Problem, Judge; for s in Problem.objects.all():exec('s.code=s.code.replace(\"-\", \"\")[0:20]; s.save()')"
-	os.system(f". {DMOJ_DIR}/dmojsite/bin/activate && echo '{command}' | python3 {DMOJ_DIR}/site/manage.py shell")
+	fix_curators	
 
-	#fix the problems folder
+def fix_problems():
+	#fix the problems folder	
 	for folder in os.listdir(PROBLEMS_DIR):
 		name = folder.replace("-", "")[0:20]
 
 		oldDir = os.path.join(DMOJ_DIR, "problems", folder)
 		newDir = os.path.join(DMOJ_DIR, "problems", name)
 		os.system(f"mv {oldDir} {newDir}")
+
+def fix_code():
+	#fix the BBDD
+	command = "from django.utils import timezone; from django.contrib.auth.models import User; from judge.models import Problem, Judge; for s in Problem.objects.all():exec('s.code=s.code.replace(\"-\", \"\")[0:20]; s.save()')"
+	os.system(f". {DMOJ_DIR}/dmojsite/bin/activate && echo '{command}' | python3 {DMOJ_DIR}/site/manage.py shell")
+	fix_problems()
 
 def fix_prefix():
 	problems = os.path.join(DMOJ_DIR, "problems")
