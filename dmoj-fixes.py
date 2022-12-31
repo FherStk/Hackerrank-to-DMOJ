@@ -13,6 +13,27 @@ def main():
 	fix_curators	
 
 def fix_problems():
+	#match problem code with folder name	
+	dir = os.path.join(DMOJ_DIR, "problems")	
+	
+	command = f"""
+from judge.models import Problem 
+import os
+for prob in Problem.objects.all():
+	for fold in os.listdir("{dir}"):
+		if fold.startswith(prob.code) and len(prob.code) < len(fold):
+			src = os.path.join("{dir}", fold)
+			dst = os.path.join("{dir}", prob.code)
+			os.rename(src, dst)
+"""
+	
+	os.system(f". {DMOJ_DIR}/dmojsite/bin/activate && echo '{command}' | python3 {DMOJ_DIR}/site/manage.py shell")	
+
+def fix_code():
+	#fix the BBDD
+	command = "from django.utils import timezone; from django.contrib.auth.models import User; from judge.models import Problem, Judge; for s in Problem.objects.all():exec('s.code=s.code.replace(\"-\", \"\")[0:20]; s.save()')"
+	os.system(f". {DMOJ_DIR}/dmojsite/bin/activate && echo '{command}' | python3 {DMOJ_DIR}/site/manage.py shell")	
+	
 	#fix the problems folder	
 	dir = os.path.join(DMOJ_DIR, "problems")
 	for folder in os.listdir(dir):
@@ -22,13 +43,7 @@ def fix_problems():
 		newDir = os.path.join(dir, name)
 
 		if oldDir != newDir:
-			os.system(f"mv {oldDir} {newDir}")		
-
-def fix_code():
-	#fix the BBDD
-	command = "from django.utils import timezone; from django.contrib.auth.models import User; from judge.models import Problem, Judge; for s in Problem.objects.all():exec('s.code=s.code.replace(\"-\", \"\")[0:20]; s.save()')"
-	os.system(f". {DMOJ_DIR}/dmojsite/bin/activate && echo '{command}' | python3 {DMOJ_DIR}/site/manage.py shell")	
-	fix_problems()
+			os.system(f"mv {oldDir} {newDir}")
 
 def fix_prefix():
 	problems = os.path.join(DMOJ_DIR, "problems")
