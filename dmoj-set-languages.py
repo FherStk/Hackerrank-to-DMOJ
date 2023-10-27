@@ -1,7 +1,6 @@
 import os
 
 DMOJ_DIR = "/etc/dmoj"
-PROBLEMS_DIR = "chs"
 
 def main():	
 	set_language(9) #Java8	
