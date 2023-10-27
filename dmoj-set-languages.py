@@ -8,8 +8,8 @@ def main():
 	set_language(20) #C# 6 (Mono)
 
 def set_language(id):
-	command = f"from django.utils import timezone; from django.contrib.auth.models import User; from judge.models import Problem, Judge; l = Language.objects.get(id={id}); for s in Problem.objects.all():exec('s.allowed_languages.add(l); s.save()')"
-	os.system(f". {DMOJ_DIR}/dmojsite/bin/activate && echo '{command}' | python3 {DMOJ_DIR}/site/manage.py shell")
+	command = f"from django.utils import timezone; from django.contrib.auth.models import User; from judge.models import Problem, Judge, Language; l = Language.objects.get(id={id}); for s in Problem.objects.all():exec('s.allowed_languages.add(l); s.save()')"
+	os.system(f". {DMOJ_DIR}/dmojsite/bin/activate && echo \"{command}\" | python3 {DMOJ_DIR}/site/manage.py shell")
 
 if __name__ == "__main__":
 	main()
