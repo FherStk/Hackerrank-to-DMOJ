@@ -5,12 +5,17 @@ DMOJ_DIR = "/etc/dmoj"
 PROBLEMS_DIR = "chs"
 
 def main():
-	fix_problems()
-	fix_code()
-	fix_prefix()
-	fix_language()
-	fix_author()
-	fix_curators	
+	none()
+	# fix_problems()
+	# fix_code()
+	# fix_prefix()
+	# fix_language()
+	# fix_author()
+	# fix_curators()	
+	# fix_statement()
+
+def none():
+	none = 1
 
 def fix_problems():
 	#match problem code with folder name	
@@ -71,6 +76,11 @@ def fix_author():
 def fix_curators():
 	command = "from django.utils import timezone; from django.contrib.auth.models import User; from judge.models import Problem, Judge, Profile; u = Profile.objects.get(id=1); for s in Problem.objects.all():exec('s.authors.add(u); s.save()')"
 	os.system(f". {DMOJ_DIR}/dmojsite/bin/activate && echo '{command}' | python3 {DMOJ_DIR}/site/manage.py shell")
+
+def fix_statement():
+	command = "from django.utils import timezone; from django.contrib.auth.models import User; from judge.models import Problem, Judge, Profile; for s in Problem.objects.all():exec('s.description=s.description.replace(\"***Output Format**", "## Output Format\"); s.save()')"
+	os.system(f". {DMOJ_DIR}/dmojsite/bin/activate && echo '{command}' | python3 {DMOJ_DIR}/site/manage.py shell")
+
 
 if __name__ == "__main__":
 	main()
