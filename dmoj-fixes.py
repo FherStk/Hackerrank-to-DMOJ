@@ -61,7 +61,7 @@ def fix_prefix():
 							os.system(f"echo 'output_prefix_length: 500' >> {file}")
 
 def fix_language():
-	command = "from django.utils import timezone; from django.contrib.auth.models import User; from judge.models import Problem, Judge; l = Language.objects.get(id=9); for s in Problem.objects.all():exec('s.allowed_languages.add(l); s.save()')"
+	command = "from django.utils import timezone; from django.contrib.auth.models import User; from judge.models import Problem, Judge, Language; l = Language.objects.get(id=9); for s in Problem.objects.all():exec('s.allowed_languages.add(l); s.save()')"
 	os.system(f". {DMOJ_DIR}/dmojsite/bin/activate && echo '{command}' | python3 {DMOJ_DIR}/site/manage.py shell")
 
 def fix_author():
